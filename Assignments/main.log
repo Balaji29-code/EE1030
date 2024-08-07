@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  7 AUG 2024 08:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  7 AUG 2024 10:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1365,67 +1365,67 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 87.
 LaTeX Font Info:    Calculating math sizes for size <17> on input line 87.
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--93
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--100
+Underfull \hbox (badness 10000) in paragraph at lines 86--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--114
+Underfull \hbox (badness 10000) in paragraph at lines 86--92
 
  []
 
 
-Overfull \hbox (2.42964pt too wide) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 96--99
+
+ []
+
+
+Overfull \hbox (2.42964pt too wide) in paragraph at lines 106--106
 []|\OT1/txr/m/n/12 (A)| 
  []
 
 
-Overfull \hbox (1.76964pt too wide) in paragraph at lines 122--122
+Overfull \hbox (1.76964pt too wide) in paragraph at lines 107--107
 []|\OT1/txr/m/n/12 (B)| 
  []
 
 
-Overfull \hbox (1.76964pt too wide) in paragraph at lines 123--123
+Overfull \hbox (1.76964pt too wide) in paragraph at lines 108--108
 []|\OT1/txr/m/n/12 (C)| 
  []
 
 
-Overfull \hbox (2.42964pt too wide) in paragraph at lines 124--124
+Overfull \hbox (2.42964pt too wide) in paragraph at lines 109--109
 []|\OT1/txr/m/n/12 (D)| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--129
+Underfull \hbox (badness 10000) in paragraph at lines 104--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--129
+Underfull \hbox (badness 10000) in paragraph at lines 104--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--152
+Underfull \hbox (badness 10000) in paragraph at lines 127--137
 
  []
 
 
-Overfull \hbox (15.69681pt too wide) in paragraph at lines 153--159
+Overfull \hbox (15.69681pt too wide) in paragraph at lines 138--144
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--159
+Underfull \hbox (badness 10000) in paragraph at lines 138--144
 
  []
 
@@ -1441,14 +1441,14 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 153 ({)
+### simple group (level 1) entered at line 138 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30348 strings out of 474116
- 596709 string characters out of 5743683
- 1947187 words of memory out of 5000000
- 52041 multiletter control sequences out of 15000+600000
- 633637 words of font info for 194 fonts, out of 8000000 for 9000
+ 30345 strings out of 474116
+ 596645 string characters out of 5743683
+ 1946187 words of memory out of 5000000
+ 52039 multiletter control sequences out of 15000+600000
+ 633399 words of font info for 193 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,12n,103p,1172b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/
@@ -1458,7 +1458,7 @@ r/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2
 024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 59911 bytes).
+Output written on main.pdf (2 pages, 53265 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
