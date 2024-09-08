@@ -1,4 +1,4 @@
-\let\negmedspace\undefined
+ \let\negmedspace\undefined
 \let\negthickspace\undefined
 \documentclass[journal]{IEEEtran}
 \usepackage[a5paper, margin=10mm, onecolumn]{geometry}
@@ -59,11 +59,11 @@
 
 \textbf{Question:}
 \\
-In what ratio does the point $\brak{\frac{24}{11},y}$ divide the line segment joining he points $\textbf{P}$ = (2,-2) and $\textbf{Q}$ = (3,7)? Also find the value of $y$. \hfill(10,2017)\\ 
+In what ratio does the point \myvec{\frac{24}{11}\\y} divide the line segment joining he points $\vec{P}$ = \myvec{2 \\ -2} and $\textbf{Q}$ = \myvec{3 \\ 7} ? Also find the value of $y$. \hfill(10,2017)\\ 
 
 
 \textbf{Answer:} \\
-Let the point $\brak{\frac{24}{11},y}$ be equals to \textbf{R}.\\ \\
+Let the point \myvec{\frac{24}{11}\\y} be equals to \textbf{R}.\\ \\
 
 \begin{table}[h!]    
   \centering
@@ -72,7 +72,7 @@ Let the point $\brak{\frac{24}{11},y}$ be equals to \textbf{R}.\\ \\
   \label{tab1.5.37.1}
 \end{table}
 
-The point \textbf{R} $\brak{\frac{24}{11},y}$ divides the points \textbf{P}(2,-2) and \textbf{Q}(3,7)
+The point \textbf{R} \myvec{\frac{24}{11}\\ y} divides the points \textbf{P}\myvec{2\\-2} and \textbf{Q}\myvec{3 \\ 7}
 in the ratio $k:1$. \\ \\
 Section formula :-\\ \\
 
@@ -85,11 +85,17 @@ Here,
     (k+1)\myvec{\frac{24}{11}\\y} &= k\myvec{3\\7}+ \myvec{2\\-2}\\
     \implies k &= \frac{2}{9}
 \end{align}
-Substituting the value of $k$ in the equation\ref{eq1.5.37.2} we get value of $y$ as
+Substituting the value of $k$ in the equation\eqref{eq1.5.37.2} we get value of $y$ as
 \begin{align}
     y &= \frac{-4}{11}
 \end{align}
 
+\begin{figure}[h!]
+   \centering
+   \includegraphics[width=0.7\linewidth]{figs/fig.png}
+   \caption{Plot of the line}
+   \label{stemplot}
+\end{figure}
 
 
 \end{document}
