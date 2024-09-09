@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  8 SEP 2024 23:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  9 SEP 2024 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1998,41 +1998,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--63
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
-
- []
-
 (./tables/table.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 75--78
+Underfull \hbox (badness 10000) in paragraph at lines 65--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--78
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--78
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
 
  []
+
+<figs/fig.png, id=32, 462.528pt x 346.896pt>
+File: figs/fig.png Graphic file (type png)
+<use figs/fig.png>
+Package pdftex.def Info: figs/fig.png  used on input line 92.
+(pdftex.def)             Requested size: 254.9356pt x 191.20625pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
-]
-<figs/fig.png, id=48, 462.528pt x 346.896pt>
-File: figs/fig.png Graphic file (type png)
-<use figs/fig.png>
-Package pdftex.def Info: figs/fig.png  used on input line 95.
-(pdftex.def)             Requested size: 254.9356pt x 191.20625pt.
- [2 <./figs/fig.png>] (./main.aux)
+] [2 <./figs/fig.png>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2047,14 +2039,14 @@ Here is how much of TeX's memory you used:
  74756 multiletter control sequences out of 15000+600000
  621907 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,16n,109p,1194b,902s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,17n,109p,1194b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive
 /2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 64969 bytes).
+Output written on main.pdf (2 pages, 64761 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
