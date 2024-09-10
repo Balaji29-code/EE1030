@@ -42,10 +42,11 @@ int main()
    temp = Matadd(temp, P , m , n);
    temp = Matscale(temp ,m, n, 1.0/(k+1) );
    R = temp;
+   float y = R[1][0];
 
    fprintf(file, "%f %f\n", P[0][0], P[1][0]);
     fprintf(file, "%f %f\n", Q[0][0], Q[1][0]);
-    fprintf(file, "%f %f\n", R[0][0], R[1][0]);
+    fprintf(file, "%f %f\n", R[0][0], y);
      fclose(file);
 
    
