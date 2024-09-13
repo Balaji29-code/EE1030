@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  13 SEP 2024 17:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  13 SEP 2024 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main .tex
+**main.tex
 (./main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1997,7 +1997,7 @@ Here is how much of TeX's memory you used:
  74723 multiletter control sequences out of 15000+600000
  621907 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,15n,109p,1195b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,15n,109p,1194b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
 0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/lo
@@ -2005,7 +2005,7 @@ cal/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/tex
 live/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 70941 bytes).
+Output written on main.pdf (2 pages, 70942 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
