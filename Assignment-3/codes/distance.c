@@ -14,7 +14,7 @@ int main()
     float a, b;
     float x1 = 0, y1 = 0;
     a = 2;
-    b = 2;
+    b = 3;
     float x2 = (a - b);
     float y2 = (a + b);
 

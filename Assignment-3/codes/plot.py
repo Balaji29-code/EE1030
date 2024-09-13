@@ -9,7 +9,7 @@ x = points[:, 0]
 y = points[:, 1]
 
 A = np.array([0, 0])
-B = np.array([0, 4])
+B = np.array([-1, 5])
 
 
 
