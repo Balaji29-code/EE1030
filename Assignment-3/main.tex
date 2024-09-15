@@ -69,25 +69,28 @@ The distance between the points \myvec{0 \\ 0} and \myvec{a - b \\ a + b} is  \h
   \caption{Variables Used}
   \label{tab1.9.19.1}
 \end{table}
-
 \begin{align}
     \therefore\vec{P} - \vec{Q} &= \myvec{0 \\ 0 } - \myvec{a - b \\ a + b} = \myvec{b - a \\ -a -b} \\
     \brak{\vec{P - Q}}^\top \brak{\vec{P - Q}} &= \myvec{b-a & -a-b}\myvec{b-a \\ -a-b} \\
     \brak{\vec{P - Q}}^\top \brak{\vec{P - Q}} &= (b - a)^2 + (a + b)^2
 \end{align} 
-Thus the desired distance is \\
-
+Thus the desired distance is 
 \begin{align}
     d = \norm{P - Q} = \sqrt{(b - a)^2 + (a + b)^2}
 \end{align}
+Assuming the points a = 2 and b = 3 
+\begin{align}
+    \vec{P} &= \myvec{0 \\ 0} \text{ and }\vec{Q} = \myvec{-1 \\ 5} \\
+    d &= \norm{P - Q} = \sqrt{(3 - 2)^2 + (2 + 3)^2}\\
+    d &= \sqrt{26}
+\end{align}
 
-\newpage
-Assuming the points a = 2 and b = 3 \\
 \begin{figure}[h!]
    \centering
    \includegraphics[width=0.7\linewidth]{figs/fig.png}
-   \caption{Plot of the line passing through A and B}
+   \caption{Plot of the line passing through  P and Q}
    \label{stemplot}
 \end{figure}
 
 \end{document}
+
