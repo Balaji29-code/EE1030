@@ -66,17 +66,18 @@ The distance between the points \myvec{0 \\ 0} and \myvec{a - b \\ a + b} is   \
 \begin{table}[h!]    
   \centering
   \input{tables/table.tex}
-  \caption{Variables Used}
+  \caption{Input parameters}
   \label{tab1.9.19.1}
 \end{table}
 \begin{align}
-    \therefore\vec{P} - \vec{Q} &= \myvec{0 \\ 0 } - \myvec{a - b \\ a + b} = \myvec{b - a \\ -a -b} \\
-    \brak{\vec{P - Q}}^\top \brak{\vec{P - Q}} &= \myvec{b-a & -a-b}\myvec{b-a \\ -a-b} \\
+	\therefore\vec{P} - \vec{Q} &= \myvec{0 \\ 0 } - \myvec{a - b \\ a + b} = \myvec{b - a \\ -a -b} \\
+	\brak{\vec{P - Q}}^\top \brak{\vec{P - Q}} &= \myvec{b-a & -a-b}\myvec{b-a \\ -a-b} \\
     \brak{\vec{P - Q}}^\top \brak{\vec{P - Q}} &= (b - a)^2 + (a + b)^2
 \end{align} 
 Thus the desired distance is 
 \begin{align}
-    d = \norm{P - Q} = \sqrt{(b - a)^2 + (a + b)^2}
+	d &= \norm{x} = \sqrt{x^\top x} \brak{\text{where } x = P - Q} \\
+	d &= \norm{P - Q} = \sqrt{(b - a)^2 + (a + b)^2}
 \end{align}
 Assuming the points a = 2 and b = 3 
 \begin{align}
