@@ -21,6 +21,29 @@
 \usepackage{enumitem}
 \usepackage{mathtools}
 \usepackage{gensymb}
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
 \usepackage{comment}
 \usepackage[breaklinks=true]{hyperref}
 \usepackage{tkz-euclide} 
@@ -41,8 +64,8 @@
 \bibliographystyle{IEEEtran}
 \vspace{3cm}
 
-\title{1-1.9-8}
-\author{EE24BTECH11010 - BALAJI B}
+\title{3-3.2-6}
+\author{EE24BTECH11010 - Balaji}
 % \maketitle
 % \newpage
 % \bigskip
@@ -52,30 +75,38 @@
 \renewcommand{\thetable}{\theenumi}
 \setlength{\intextsep}{10pt} % Space between text and floats
 
-
-\numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \renewcommand{\thetable}{\theenumi}
 
-\textbf{Question :} \\ 
-Construct a triangle $ABC$ in which $BC$ = 6cm, $CA$ = 5cm and $AB$ = 4cm. \\
+\textbf{Question :} \\
+Draw a right triangle $ABC$ in which $BC$ = 12cm, $AB$ = 5cm and $\angle{B} = 90\degree$.\\
+\textbf{Solution:}
 
-\textbf{Answer :} \\
-
-\begin{table}[h!]    
-  \centering
-  \input{tables/table.tex}
-  \caption{Variables Used}
-  \label{tab1.9.19.1}
+\begin{table}[h!]
+      \centering
+      \input{tables/table.tex}
+      \caption{}
 \end{table}
-
+Using cosine rule, we can find the length of $AB$, i.e., $\vec{b}$:
 \begin{align}
-    a &= BC = 7cm \\
-    b &= AC \\
-    c &= AB \\
-    \therefore b + c = 13cm \\
-    \since b^2 = a^2 +c^2 - 2ac\cosB \\
-    \implies (13 - c)^2 = a^2 - 2ac\cosB \\
-    \implies c = \frac{K^2-a^2}{2\brak{K-a\cos{B}}}
+    b^2 &= a^2 + c^2 - 2ac\cos{B}\\
+    b^2 &= 12^2 + 5^2 - 120\cos{90\degree}
 \end{align}
-\end{document} 
+On solving, we get $\vec{b}$ as:
+\begin{align}
+    \vec{b} = 13cm
+\end{align}
+
+The coordinates of $\triangle ABC$ can then be expressed as
+\begin{align}
+    \vec{A} = c\myvec{\cos{B} \\ \sin{B}}, \vec{B} = \myvec{0 \\ 0}, \vec{C} = \myvec{a \\ 0}\\
+    \therefore \vec{A} = 5\myvec{\cos{90\degree} \\ \sin{90\degree}}, \vec{B} = \myvec{0 \\ 0}, \vec{C} = \myvec{ 12\\ 0}
+\end{align}
+\begin{figure}
+    \centering
+    \includegraphics[width=10cm]{figs/fig.png}
+    \caption{}
+    \label{fig:enter-label}
+\end{figure}
+\end{document}
+
