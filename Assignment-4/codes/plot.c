@@ -48,4 +48,9 @@ int main()
     point_gen(fptr, B, C, 20);
     point_gen(fptr, C, A, 20);
 
+    freeMat(A, m);
+    freeMat(B, m) ;
+    freeMat(C, m) ;
+
+    fclose(fptr) ;
 }
