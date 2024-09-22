@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Load the points from the text file
-points = np.loadtxt("quad.txt", delimiter=',')
+points = np.loadtxt("quad.txt", delimiter=',',max_rows=len(list(open("./quad.txt")))-1)
 
 # Extract the x and y coordinates
 x = points[:, 0]
