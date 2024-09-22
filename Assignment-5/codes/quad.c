@@ -38,6 +38,16 @@ int main() {
     C[1][0] = y3;
     D[0][0] = x4;
     D[1][0] = y4;
+    double **s_ab = Matsub(A, B, m, n);
+    double **s_bc = Matsub(B, C, m, n);
+    double **s_cd = Matsub(C, D, m, n);
+    double **s_da = Matsub(D, A, m, n);
+    double sideAB = Matnorm(s_ab, m);
+    double sideBC = Matnorm(s_bc, m);
+    double sideCA = Matnorm(s_cd, m);
+    double sideDA = Matnorm(s_da, m);
+    double perimeter = sideAB + sideBC + sideCA + sideDA;
+
 
     FILE *fptr;
     fptr = fopen("quad.txt", "w");
@@ -53,6 +63,7 @@ int main() {
     point_gen(fptr, A, B, 10);
     point_gen(fptr, B, C, 10);
     point_gen(fptr, C, D, 10);
+    fprintf(fptr,"%lf\n",perimeter);
 
     freeMat(A,m);
     freeMat(B,m);
