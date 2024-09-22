@@ -56,8 +56,8 @@
 \renewcommand{\thetable}{\theenumi}
 
 \textbf{Question :} \\
-Draw a quadrilateral in the Cartesian plane, whose vertices are (-4, 5), (0, 7), (5, -5)
-and (-4, -2) \\
+Draw a quadrilateral in the Cartesian plane, whose vertices are \myvec{-4 \\  5}, \myvec{0\\ 7}, \myvec{5 \\ -5}
+and \myvec{-4\\ -2} \\
 \textbf{Answer :}\\
 \begin{table}[h!]
       \centering
@@ -65,6 +65,34 @@ and (-4, -2) \\
       \caption{}
 \end{table}
 
+Distance between $\vec{A}$ and $\vec{B}$, $d_1$ is
+\begin{align}
+	\brak{\vec{A} - \vec{B}} = \myvec{-4\\5} - \myvec{0\\7} &= \myvec{-4\\-2}\\
+	\brak{\vec{A-B}}^\top\brak{\vec{A-B}}&=20\\
+    d_1=||\vec{A}-\vec{B}||&=\sqrt{20}
+\end{align}
+Distance between $\vec{B}$ and $\vec{C}$, $d_2$ is
+\begin{align}
+	\brak{\vec{B} - \vec{C}} = \myvec{0\\7} - \myvec{5\\-5} &= \myvec{-5\\12}\\
+	\brak{\vec{B-C}}^\top\brak{\vec{B-C}}&=169\\
+    d_2=||\vec{A}-\vec{O}||&=13
+\end{align}
+Distance between $\vec{C}$ and $\vec{D}$, $d_3$ is
+\begin{align}
+	\brak{\vec{C} - \vec{D}} = \myvec{5\\-5} - \myvec{-4\\-2} &= \myvec{9\\-3}\\
+	\brak{\vec{C-D}}^\top\brak{\vec{C-D}}&=90\\
+    d_3=||\vec{O}-\vec{B}||&=\sqrt{90}
+\end{align}
+Distance between $\vec{D}$ and $\vec{A}$, $d_4$ is
+\begin{align}
+	\brak{\vec{D} - \vec{A}} = \myvec{-4\\-2} - \myvec{-4\\5} &= \myvec{0\\-7}\\
+	\brak{\vec{D-A}}^\top\brak{\vec{D-A}}&=49\\
+    d_3=||\vec{O}-\vec{B}||&=7
+\end{align}
+Perimeter of the Quadrilateral is 
+\begin{align}
+    d_1+d_2+d_3+d_4&=\sqrt{20}+\sqrt{90}+20
+\end{align}
 The Quadrilateral formed by the points:
 \begin{figure}[h!]
    \centering
