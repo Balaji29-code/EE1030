@@ -31,7 +31,7 @@ plt.ylim(0, 2)
 # Add labels, title, and grid
 plt.xlabel("x")
 plt.ylabel("y")
-plt.title("Direction of Line1 and Line2")
+plt.title("Plot of two perpendicular lines")
 plt.grid(True)
 plt.legend()
 
