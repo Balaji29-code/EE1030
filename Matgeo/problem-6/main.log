@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  28 SEP 2024 20:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  29 SEP 2024 01:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2003,7 +2003,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--60
 File: figs/fig.png Graphic file (type png)
 <use figs/fig.png>
 Package pdftex.def Info: figs/fig.png  used on input line 71.
-(pdftex.def)             Requested size: 364.1953pt x 273.16086pt.
+(pdftex.def)             Requested size: 254.9356pt x 191.20625pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2015,17 +2015,13 @@ ocal/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  53220 strings out of 474116
  1264934 string characters out of 5743683
- 1937187 words of memory out of 5000000
+ 1938187 words of memory out of 5000000
  74756 multiletter control sequences out of 15000+600000
  621907 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -2037,7 +2033,7 @@ e/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2024/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 65682 bytes).
+Output written on main.pdf (2 pages, 65917 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
