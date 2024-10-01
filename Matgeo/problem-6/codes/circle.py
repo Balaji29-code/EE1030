@@ -18,7 +18,7 @@ y = data[3:, 1]
 # Plot the data
 plt.plot(x, y, label = 'Circle')
 
-txtA = 'A(2,4)' 
+txtA = 'C(2,4)' 
 
 plt.scatter(data[0, 0], data[0, 1], c = 'c', label = txtA)
 plt.annotate(txtA, xy = A)
