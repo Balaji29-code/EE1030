@@ -18,13 +18,10 @@ y = data[3:, 1]
 # Plot the data
 plt.plot(x, y, label = 'Circle')
 
-txtA = 'A(2,4)'
-txtB = 'B' 
+txtA = 'A(2,4)' 
 
 plt.scatter(data[0, 0], data[0, 1], c = 'c', label = txtA)
-plt.scatter(data[1, 0], data[1, 1], c = 'm', label = txtB)
 plt.annotate(txtA, xy = A)
-plt.annotate(txtB, xy = B)
 
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
