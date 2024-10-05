@@ -22,7 +22,7 @@ plt.scatter(x2[0], x2[1], color='red', marker='o', label='Point $X_2$(11.3,-11.3
 
 # Define the line equation x = 8*\sqrt2
 line_y = np.linspace(min(y), max(y), 400)
-line_x = line_y * 0 + 8*math.sqrt(2)
+line_x = line_y * 0 + 11.3
 
 # Plot the line x=11.3
 plt.plot(line_x, line_y, color='green', label='Line: x = 11.3')
@@ -30,7 +30,7 @@ plt.plot(line_x, line_y, color='green', label='Line: x = 11.3')
 plt.text(x1[0] + 0.2, x1[1] - 0.3, '$X_1(11.3,11.3)$', color='green', fontsize=9)
 plt.text(x2[0] + 0.2, x2[1] - 0.3, '$X_2(11.3,-11.3)$', color='red', fontsize=9)
 
-# Fill the closed region between the parabola and the line x=2
+# Fill the closed region between the parabola and the line x=11.3
 # We want to fill only the region where x <= 2 (parabola on the left of the line)
 plt.fill_between(x, y, where=(x <= 11.3), color='blue', alpha=0.3, label='Shaded Region')
 

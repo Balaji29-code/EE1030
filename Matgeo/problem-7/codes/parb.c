@@ -15,7 +15,7 @@ void parab_y2_4ax_gen(FILE *fptr, double **x1, double **x2, double a, int num_po
     double tfinal = (x2[1][0] / (2 * a));
     double **point = createMat(2, 1);
     if (tfinal > tinit) {
-        for (double i = tinit; i <= tfinal; i += 2.0 / num_points) {
+        for (double i = tinit; i <= tfinal; i += 1.0 / num_points) {
             point[0][0] = a * i * i;
             point[1][0] = 2 * a * i;
             fprintf(fptr, "%lf,%lf\n", point[0][0], point[1][0]);  // Don't forget newline for correct formatting
@@ -112,7 +112,7 @@ int main(){
         return 1;
     }
 
-    parab_y2_4ax_gen(fptr,x1,x2,-u[0][0]/2,100);
+    parab_y2_4ax_gen(fptr,x1,x2,-u[0][0]/2,150);
     
         
     // Close the file
