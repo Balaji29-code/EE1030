@@ -57,64 +57,44 @@ Find the area of the region included between the circle $x^2 + y^2 = 8x$ and ins
     \label{tab1-1.2-20}
 \end{table} 
 
-The conic parameter for the circle and parabola  can be expressed as 
+The general equation of Circle is given by 
 \begin{align}
-    \vec{V}_1 = \myvec{1 & 0 \\ 0 & 1}, \vec{u}_1 = \myvec{-4 \\ 0}, f_1 = 0 \\
-    \vec{V}_2 = \myvec{0 & 0 \\ 0 &1}, \vec{u}_2 = \myvec{-2 \\ 0}, f_2 = 0
+    \norm{\vec{x}}^2 + 2\vec{u}^\top \vec{x} + f = 0
 \end{align}
-Substituting the values of $\vec{V_i}$, $\vec{u_i}$, $f_i$, $i = 1, 2$, for pair of straight lines\\
+The parameters of the given circle is 
 \begin{align}
- \mydet{\vec{V}_1 + \mu\vec{V}_2 & \vec{u}_1 + \mu\vec{u}_2 \\ (\vec{u}_1+ \mu\vec{u}_2)^\top & f_1 + \mu f_2} = 0 \\
- \mydet{1 & 0 & -4 -2\mu \\ 0 & \mu + 1 & 0 \\ -4-2\mu & 0 & 0} = 0   \\
- \mu = -1
+    \vec{u} = \myvec{-4 \\ 0 }, f = 0
 \end{align}
-The equation of the pair of straight line, is given by
+Substituting the parameters of the circle in general equation, we get
 \begin{align}
-    \vec{x}^\top (\vec{V}_1+\mu\vec{V}_2)\vec{x}+2(\vec{u}_1 + \mu \vec{u}_2)^\top \vec{x} + (f_1 + \mu f_2) &= 0 \\
-    \vec{x}^\top \myvec{1 & 0 \\ 0 & 0}\vec{x}+2\myvec{-2 & 0} \vec{x}   = 0  \\
-    \sbrak{\vec{x}^\top \myvec{1 & 0 \\ 0 & 0} + \myvec{-4 & 0}}\vec{x} = 0
+    \norm{\vec{x}}^2 + 2\myvec{-4 & 0}\vec{x} + 0 = 0
 \end{align}
-$\because \vec{x} = \myvec{x \\ y}$, substituting it we get
+To find the point of intersection of parabola and circle, substitute parabola in circle.
 \begin{align}
-    \sbrak{\myvec{x & y}\myvec{1 & 0 \\ 0 & 0} + \myvec{-4 & 0}}\myvec{x \\ y} \\
-    \myvec{x-4 & 0}\myvec{x \\ y } = 0 \\
-    (x -4)(x) = 0
+    \because \vec{x} = \myvec{x \\ y}
 \end{align}
-$\therefore $The intersection of Circle and Parabola is lines with parameters
+The parabola can be represented as
 \begin{align}
-\vec{m}_1 = \myvec{0 \\ 1}, \vec{h}_1 = \myvec{0 \\ 0} \\
-\vec{m}_2 = \myvec{0 \\ 1}, \vec{h}_2 = \myvec{4 \\ 0}
+    y = \pm 2\sqrt{x}
 \end{align}
-Substituting the line-1 equation in parabola equation gives the value of $\kappa$
+Substituting this in above $\vec{x}$, we get 
 \begin{align}
-\brak{\vec{h}+\kappa\vec{m}}^\top\vec{V}\brak{\vec{h}+\kappa\vec{m}} + 2\vec{u}^\top\brak{\vec{h}+\kappa\vec{m}} + f &= 0 \\
-\brak{\myvec{0 \\ 0} + \kappa \myvec{0\\1}}^\top \myvec{ 0&0\\0&1}\brak{\myvec{0 \\ 0}+ \kappa \myvec{0\\1}} + 2\myvec{-2\\0}^\top \brak{\myvec{0 \\ 0} + \kappa \myvec{0\\1}} + 0 = 0 \\
-\myvec{0 & \kappa}\myvec{0 & 0 \\ 0 &1}\myvec{0 \\ \kappa} + 2\myvec{-2 & 0}\myvec{0 \\ \kappa} = 0
+    \vec{x} = \myvec{x \\  \pm 2\sqrt{x}}
 \end{align}
+Substituting this in circle, we get
 \begin{align}
-    \kappa^2 = 0 \\
-    \kappa_1 = 0
+    \norm{\myvec{x \\ \pm 2 \sqrt{x}}}^2 + 2 \myvec{-4 & 0}\myvec{x \\ \pm 2\sqrt{x}} + 0 = 0\\
+    \therefore x(x-4) = 0\\
+    \implies x = 0,4
 \end{align}
-The intersection point of line-1 with parabola
+The point of intersection of circle and parabola can be given by
 \begin{align}
-    \vec{x}_1 &= \vec{h}_1 + \kappa_1\vec{m}\\
-    \vec{x}_1 &= \myvec{0 \\ 0}
+    \vec{x}_1 = \myvec{0 \\ 0}\\
+    \vec{x}_2 = \myvec{4 \\ 4}\\
+    \vec{x}_3 = \myvec{4 \\ -4}
 \end{align}
-Substituting the line-2 equation in parabola equation gives the value of k
-\begin{align}
-    \brak{\myvec{4\\0}+\kappa\myvec{0\\1}}^\top\myvec{0 & 0\\0 & 1}\brak{\myvec{4\\0}+\kappa\myvec{0\\1}} + 2\myvec{-2\\0}^\top\brak{\myvec{4\\0}+\kappa\myvec{0\\1}} + 0 &= 0\\
-\myvec{4&\kappa}\myvec{0&0\\0&1}\myvec{4\\\kappa}+2\myvec{-2&0}\myvec{4\\\kappa} &= 0\\
-\kappa^2 - 16 = 0 \\
-\kappa_1 = 4 \\
-\kappa_2 = -4
-\end{align}
-The intersection points of line-2 with parabola 
-\begin{align}
-\vec{x_2} &= \myvec{4\\4}\\
-\vec{x_3} &= \myvec{4\\-4}
-\end{align}
-The desired area is given by 
-\begin{align}
+Thus, the desired Area is given as
+    \begin{align}
     A &= 2\sbrak{\int_{0}^{4}\sqrt{4x}dx + \int_{4}^{8}\sqrt{8x - x^2} } \\
     A &= 2\sbrak{\sbrak{\frac{4}{3} x^{\frac{3}{2}}}_{0}^{4} + \sbrak{\frac{x-4}{2}\sqrt{8x - x^2} + 8 \sin^{-1}\brak{\frac{x-4}{4}}}_4^8 }\\
      A &= \frac{64}{3}+ 8 \pi
@@ -122,7 +102,7 @@ The desired area is given by
 $\therefore$ The Area $A$ is $\frac{64}{3} + 8\pi$
 \begin{figure}[h!]
    \centering
-   \includegraphics[width = .8\linewidth]{figs/fig.png}
+   \includegraphics[width = .7\linewidth]{figs/fig.png}
    \caption{The Area enclosed by parabola and circle}
    \label{stemplot}
    \end{figure}
