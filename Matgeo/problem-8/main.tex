@@ -71,10 +71,16 @@ Substituting the values of $\vec{V_i}$, $\vec{u_i}$, $f_i$, $i = 1, 2$, for pair
 The equation of the pair of straight line, is given by
 \begin{align}
     \vec{x}^\top (\vec{V}_1+\mu\vec{V}_2)\vec{x}+2(\vec{u}_1 + \mu \vec{u}_2)^\top \vec{x} + (f_1 + \mu f_2) &= 0 \\
-    \vec{x}^\top \myvec{1 & 0 \\ 0 & 0}\vec{x}+2\myvec{-2 & 0} \vec{x}   = 0 \\
-	\sbrak{\vec{x}^\top \myvec{1 & 0 \\ 0 & 0} + \myvec{-4 & 0}}\vec{x} = 0
+    \vec{x}^\top \myvec{1 & 0 \\ 0 & 0}\vec{x}+2\myvec{-2 & 0} \vec{x}   = 0  \\
+    \sbrak{\vec{x}^\top \myvec{1 & 0 \\ 0 & 0} + \myvec{-4 & 0}}\vec{x} = 0
 \end{align}
-The intersection of Circle and Parabola is lines with parameters
+$\because \vec{x} = \myvec{x \\ y}$, substituting it we get
+\begin{align}
+    \sbrak{\myvec{x & y}\myvec{1 & 0 \\ 0 & 0} + \myvec{-4 & 0}}\myvec{x \\ y} \\
+    \myvec{x-4 & 0}\myvec{x \\ y } = 0 \\
+    (x -4)(x) = 0
+\end{align}
+$\therefore $The intersection of Circle and Parabola is lines with parameters
 \begin{align}
 \vec{m}_1 = \myvec{0 \\ 1}, \vec{h}_1 = \myvec{0 \\ 0} \\
 \vec{m}_2 = \myvec{0 \\ 1}, \vec{h}_2 = \myvec{4 \\ 0}
@@ -89,7 +95,7 @@ Substituting the line-1 equation in parabola equation gives the value of $\kappa
     \kappa^2 = 0 \\
     \kappa_1 = 0
 \end{align}
-The intersection point is 
+The intersection point of line-1 with parabola
 \begin{align}
     \vec{x}_1 &= \vec{h}_1 + \kappa_1\vec{m}\\
     \vec{x}_1 &= \myvec{0 \\ 0}
@@ -102,7 +108,7 @@ Substituting the line-2 equation in parabola equation gives the value of k
 \kappa_1 = 4 \\
 \kappa_2 = -4
 \end{align}
-The intersection points are 
+The intersection points of line-2 with parabola 
 \begin{align}
 \vec{x_2} &= \myvec{4\\4}\\
 \vec{x_3} &= \myvec{4\\-4}
@@ -116,7 +122,7 @@ The desired area is given by
 $\therefore$ The Area $A$ is $\frac{64}{3} + 8\pi$
 \begin{figure}[h!]
    \centering
-   \includegraphics[width = 1\linewidth]{figs/fig.png}
+   \includegraphics[width = .8\linewidth]{figs/fig.png}
    \caption{The Area enclosed by parabola and circle}
    \label{stemplot}
    \end{figure}
