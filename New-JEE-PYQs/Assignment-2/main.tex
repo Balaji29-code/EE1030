@@ -1,0 +1,150 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{enumitem}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{27-08-2021- shift-2}
+\author{EE24BTECH11010 - Balaji B}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+\begin{enumerate}
+    \item If $y(x) = \cot^{-1}\brak{\frac{\sqrt{1 + \sin{x}} + \sqrt{1 - \sin{x}}}{\sqrt{1 + \sin{x}} - \sqrt{1 - \sin{x}}}}$, $x \in \brak{\frac{\pi}{2}, \pi}$, then $\frac{dy}{dx}$ at $x = \frac{5\pi}{6}$ is: \hfill (August-2021)
+    \begin{enumerate}
+    \begin{multicols}{4}
+        \item $-\frac{1}{2}$
+        \item $-1$
+        \item $\frac{1}{2}$
+        \item 0
+    \end{multicols}
+    \end{enumerate}
+    \item Two poles, $AB$ of length a meters and $CD$ of length $ a + b$ $(b \neq a) $ meters are erected at same horizontal level with bases at $B$ and $D$. If $BD$ = $x$ and $\tan\brak{\angle{ABC}} = \frac{1}{2}$, then: \hfill (August-2021)
+    \begin{enumerate}
+        \begin{multicols}{2}
+            \item $x^2 + 2(a + 2b)x - b(a + b) = 0$
+            \item $x^2 + 2(a + 2b)x + a(a + b) = 0$
+            \item $x^2 - 2ax - b(a + b) = 0$
+            \item $x^2 - 2ax + a(a + b) = 0$
+        \end{multicols}
+    \end{enumerate}
+    \item If $0 < x < 1$ and $y = \frac{1}{2}x^2 + \frac{2}{3}x^3 + \frac{3}{4}x^4 + ...$, then the value of $e^{1+y}$ at $x = \frac{1}{2}$ is\\:\hfill (August-2021)
+    \begin{enumerate}
+        \begin{multicols}{2}
+            \item $\frac{1}{2}e^2$
+            \item $2e$
+            \item $\frac{1}{2}\sqrt{e}$
+            \item $2e^2$
+        \end{multicols}
+    \end{enumerate}
+    \item The value of the integral $\int_0^1 \frac{\sqrt{x}dx}{(1+x)(1+3x)(3+x)}$ is: \hfill (August-2021)
+    \begin{enumerate}
+        \begin{multicols}{4}
+        \item $\frac{\pi}{8} \brak{1 - \frac{\sqrt{3}}{2}}$
+        \item $\frac{\pi}{4} \brak{1 - \frac{\sqrt{3}}{6}}$
+        \item $\frac{\pi}{8} \brak{1 - \frac{\sqrt{3}}{6}}$
+        \item $\frac{\pi}{4} \brak{1 - \frac{\sqrt{3}}{2}}$ 
+        \end{multicols}
+    \end{enumerate}
+    \item If $\lim_{x\to\infty} \brak{\sqrt{x^2 - x + 1} - ax} = b $ 
+      then the ordered pair $(a,b)$ is: \hfill (August-2021)
+    \begin{enumerate}
+        \begin{multicols}{2}
+            \item $\brak{1, \frac{1}{2}}$
+            \item $\brak{1, -\frac{1}{2}}$
+            \item $\brak{-1, \frac{1}{2}}$
+            \item $\brak{-1, -\frac{1}{2}}$
+        \end{multicols}
+    \end{enumerate}
+    \item Let $S$ be the sum of all solutions (in radians) of the equation $\sin^4\theta + \cos ^4 \theta - \sin \theta \cos \theta = 0$ in $\sbrak{0, 4\pi}$. Then $\frac{8S}{\pi}$ is equal to \rule{1cm}{0.15mm}
+    
+    \hfill (August-2021)
+    
+    \item Let $S$ be the mirror image of the point $Q\brak{1,3,4}$ with respect to the plane $2x - y + z + 3 = 0$ and let $R\brak{3,5,\gamma} $ be point of this plane. Then the square of the length of the segment $SR$ is \rule{1cm}{0.15mm} 
+    
+    \hfill (August-2021) 
+    
+    \item The probability distribution of random variable $X$ is given by: \\
+    \begin{tabular}[12pt]{ |c| c| c|c|c|c|}
+    \hline
+    $X$ & 1 & 2 & 3 & 4 & 5 \\
+    \hline
+    $P(X)$ & $K$ & 2$K$ & 2$K$ & 3$K$ & $K$ \\
+    \hline 
+    \end{tabular} \\ \\
+    Let $p = P \brak{1 < X < 4 | X < 3}$. If $5p = \lambda K$, then $\lambda$ equal to \rule{1.5cm}{0.15mm} 
+    
+    \hfill(August-2021) 
+    
+    \item Let $z_1$ and $z_2$ be two complex numbers such that $arg\brak{z_1 - z_2} = \frac{\pi}{4}$ 
+ and $z_1, z_2$ satisfy the equation $\abs{ z -
+ 3 }= Re(z)$. Then the imaginary part of $z_1 + z_2$ is equal to \rule{1cm}{0.15mm}
+ 
+ \hfill(August-2021)
+ 
+ \item Let $S = \{1, 2, 3, 4, 5, 6, 9\}$. Then the number of elements in the set $T = \{A\subseteq 
+ S : A \neq \phi $ and the sum of all the elements of $A$ is not a multiple of 3\} is \rule{1cm}{0.15mm} 
+ 
+     \hfill(August-2021)
+     
+    \item Let $A\brak{\sec \theta, 2\tan \theta}$ and $B \brak{\sec \phi, 2 \tan \phi}$, where $\theta + \phi = \frac{\pi}{2}$, be two points on the hyperbola $2x^3 - y^2 = 2$. If $\brak{\alpha, \beta}$ is the point of intersection of the normals to the hyperbola at $A$ and $B$, then $\brak{2\beta}^2$ is equal to \rule{1.5cm}{0.15mm}
+    
+    \hfill (August-2021)
+    
+    \item Two circles each of radius 5 units touch each other at the point $\brak{1,2}$. If the equation of their common tangent is $4x + 3y = 10$ and $C_1 \brak{\alpha,\beta}$ and $C_2 \brak{\gamma, \delta}$, $C_1 \neq C_2$ are their centres, then $\abs{\brak{\alpha+\beta}\brak{\gamma+\delta}}$
+    is equal to \rule{1cm}{0.15mm}
+    
+    \hfill (August-2021)
+    
+    \item $3 \times 7^{22} + 2 \times 10^{22} - 44$ when divided by 18 leaves the remainder \rule{1cm}{0.15mm} 
+    
+    \hfill (August-2021)
+    
+    \item An online exam is attempted by 50 candidates out of which 20 are boys. The average marks obtained by boys is 12 with a variance 2. The variance of marks obtained by 30 girls is also 2. The average marks of all 50 candidates is 15. If $\mu$ is the average marks of girls and $\sigma ^2$
+ is the variance of marks of 50 candidates, then 
+$\mu + \sigma^2$ is equal to \rule{1.5cm}{0.15mm}
+
+\hfill(August-2021)
+\item If $\int \frac{2e^x + 3e^{-x}}{4e^x+ 7e^{-x}}dx = \frac{1}{14} \brak{ux + v \log_e \brak{4e^x + 7e^{-x}}} + C$, where C is a constant of integration then $u + v$ is equal to \rule{1cm}{0.15mm}
+
+\hfill (August-2021)
+\end{enumerate}
+\end{document}
