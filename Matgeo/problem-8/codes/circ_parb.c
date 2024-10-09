@@ -91,7 +91,7 @@ int main()
     circle_gen(fptr,C,radius,num_points_c);
     double a = 1;
     double limit_x = 3;
-    double num_points_p = 100;
+    double num_points_p = 150;
 
     parab_y2_4ax_gen(fptr, limit_x, a, num_points_p);
     fprintf(fptr,"The Area between circle and the parabola is %lf", 2*area_parb(0,4)+2*area_circle(4,8));
