@@ -1,0 +1,184 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{enumitem}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{07-20-2021- shift-2}
+\author{EE24BTECH11010 - Balaji B}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+ \begin{enumerate}
+    \item For the natural numbers $m,n,$ if $(1-y)^m (1+y)^n = 1 + a_1y + a_2 y^2 + .... + a_{m+n} y^{m+n}$ and $a_1 = a_2 = 10 $, then the value of $(m+n)$ is equal to :
+    \begin{enumerate}
+        \item 88
+        \item 64
+        \item 100
+        \item 80
+    \end{enumerate}
+    \item The value of $\tan\brak{2\tan^{-1}\frac{3}{5}+ \sin^{-1}\frac{5}{13}}$ is equal to :
+    \begin{enumerate}
+    \begin{multicols}{4}
+        \item $\frac{-181}{69}$
+        \item $\frac{220}{21}$
+        \item $\frac{-291}{76}$
+        \item $\frac{151}{63}$
+    \end{multicols}
+    \end{enumerate}
+    \item  Let $r_1$ and $r_2$ be the radii of the largest and smallest circles, respectively, which pass through the point (-4,1) and having their centres on the circumference of the circle $x^2 + y^2 + 2x + 4y - 4 = 0$. If $\frac{r_1}{r_2} = a + b\sqrt{2} $, then $a+b$ is equal to:
+    \begin{enumerate}
+        \item 3
+        \item 11
+        \item 5
+        \item 7 
+    \end{enumerate}
+    \item Consider the following three statements: \\
+    $(A)$ If 3 + 3 = 7 then 4 + 3 = 8. \\ 
+    $(B)$ If 5 + 3 = 8 then earth is flat.\\
+    $(C)$ If both $(A)$ and $(B)$ are true then 5 + 6 = 17.\\
+    Then, which of the following statements is correct ? 
+    \begin{enumerate}
+        \item (A) is false, but (B) and (C) are true 
+        \item (A) and (C) are true while (B) is false
+        \item (A) is true while (B) and (C) are false 
+        \item (A) and (B) are false while (C) is true
+    \end{enumerate}
+    \item The lines $x = ay -1 = z 
+- 2$ and $x = 3y -
+ 2 = bz -
+ 2, (ab \neq  
+ 0) $ are coplanar, if :
+ \begin{enumerate}
+     \item $b = 1 , a \in \textbf{R} - \{ 0 \}$
+     \item $a = 1 , b \in \textbf{R} - \{ 0 \}$
+     \item $a = 2, b = 2 $
+     \item $ a =2 , b = 3$
+ \end{enumerate}
+   \item  If $\sbrak{x}$ denotes the greatest integer less than or equal to $x$, then the value of the integral $\int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} \sbrak{\sbrak{x} - \sin{x}}dx$ is equal to :
+    \begin{enumerate}
+        \item $-\pi$
+        \item $\pi$
+        \item $0$
+        \item 1
+    \end{enumerate}
+    \item  If the real part of the complex number $\brak{1 - \cos \theta + 2i \sin\theta}^{-1}$
+  is $\frac{1}{5} \theta \in \brak{0 , \pi}$, then the value of the integral $\int_{0}^{\theta} \sin xdx$ is equal to:
+  \begin{enumerate}
+      \item 1
+      \item 2
+      \item  $-1$
+      \item 0
+  \end{enumerate}
+  \item Let $f : \textbf{R} - \{ \frac{\alpha}{6} \} \to \textbf{R}$ be defined by 
+ $f(x) = \frac{5x + 3}{6x - \alpha}.$ Then the value of $\alpha$
+ for which $(fof)(x) = x$, for all $x = \textbf{R} - \{ \frac{\alpha}{6} \}$
+, is :
+\begin{enumerate}
+    \item No such $\alpha$ exists
+    \item 5 
+    \item 8
+    \item 6
+\end{enumerate}
+    \item If $f : \textbf{R} \to \textbf{R}$ is given by $f(x) = x + 1$
+, then the value of  \[\lim_{n\to\infty} \frac{1}{n} \sbrak{f(0) + f\brak{\frac{5}{n}} + f \brak{\frac{10}{n}} + ..... + f\brak{\frac{5(n - 1)}{n}}},\]
+\begin{enumerate}
+\begin{multicols}{4}
+    \item $\frac{3}{2}$
+    \item $\frac{5}{2}$
+    \item $\frac{1}{2}$
+    \item $\frac{7}{2}$
+    \end{multicols}
+\end{enumerate}
+    \item Let A, B and C be three events such that the probability that exactly one of A and B occurs is (1, 
+ -$k$), the probability that exactly one of B and C occurs is (1, -2$k$), the probability that exactly one of C and A occurs is (1, -k) and the probability of all A, B and C occur simultaneously is $k^2$, where $0 < k < 1$. Then the probability that at least one of A, B and C occur is :
+ \begin{enumerate}
+     \item greater than $\frac{1}{8}$ but less than $\frac{1}{4}$
+     \item greater than $\frac{1}{2}$
+     \item greater than $\frac{1}{4}$ but less than $\frac{1}{2}$
+     \item exactly equal to $\frac{1}{2}$
+ \end{enumerate}
+    \item The sum of all the local minimum values of the twice differentiable function $f : R \to
+ R$ defined by  $f(x) = x^3 - 3x^2 - \frac{3f^{''}(2)}{2}x + f^{''}(1)$ is :
+ \begin{enumerate}
+     \item $-22$
+     \item 5
+     \item $-27$
+     \item 0
+ \end{enumerate}
+  \item Let in a right angled triangle, the smallest angle be $\theta$. If a triangle formed by taking the reciprocal of its sides is also a right angled, then $\sin \theta$ is equal to:
+ \begin{enumerate}
+  \begin{multicols}{4}
+      \item $\frac{\sqrt{5}+1}{4}$
+      \item $\frac{\sqrt{5}-1}{2}$
+      \item $\frac{\sqrt{2}-1}{2}$
+      \item $\frac{\sqrt{5}-1}{4}$
+  \end{multicols}
+ \end{enumerate}
+  \item Let $y = y(x)$ satisfies the equation $\frac{dy}{dx} - \abs{A} = 0$ for all $x > 0$, where $A$ = $\myvec{y & \sin x & 1 \\ 0 & -1 & 1 \\ 2 & 0 & \frac{1}{x}}$. If $y(\pi) = \pi + 2$, then the value of $y\brak{\frac{\pi}{2}}$ is:
+ \begin{enumerate}
+ \begin{multicols}{4}
+     \item $\frac{\pi}{2} + \frac{4}{\pi}$
+     \item $\frac{\pi}{2} - \frac{1}{\pi} $
+     \item $\frac{3\pi}{2} - \frac{1}{\pi}$
+     \item $\frac{\pi}{2} - \frac{4}{\pi} $
+ \end{multicols}
+ \end{enumerate}
+  \item Consider the line L given by the equation $\frac{x-3}{2} = \frac{y-1}{1} = \frac{z-2}{1}$. Let Q be the mirror image of the point $(2,3,-1)$ with respect to L. Let a plane P be such that it passes through Q, and the line L is perpendicular to P. Then which of the following points is on the plane P?
+ \begin{enumerate}
+     \begin{multicols}{2}
+     \item $(-1,1,2)$
+     \item $(1,1,1)$
+     \item $(1,1,2)$
+     \item $(1,2,2)$
+     \end{multicols}
+ \end{enumerate}
+ \item If the mean and variance of six observations $7, 10, 11, 15, a, b $ are 10 and $\frac{20}{3}$
+ , respectively, then the value of $\abs{a -
+ b}$ is equal to :
+ \begin{enumerate}
+     \item 9
+     \item 11
+     \item 7
+     \item 1
+ \end{enumerate}
+ \end{enumerate}
+\end{document}
