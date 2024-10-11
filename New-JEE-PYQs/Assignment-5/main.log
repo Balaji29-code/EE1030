@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  12 OCT 2024 00:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  12 OCT 2024 00:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2012,11 +2012,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  53241 strings out of 474116
  1264902 string characters out of 5743683
- 1951187 words of memory out of 5000000
+ 1956187 words of memory out of 5000000
  74742 multiletter control sequences out of 15000+600000
  624625 words of font info for 171 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,11n,109p,1194b,1148s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,11n,109p,1194b,1032s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/l
@@ -2025,7 +2025,7 @@ xlive/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2
 024/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texlive/2024/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/f
 onts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 56726 bytes).
+Output written on main.pdf (2 pages, 56743 bytes).
 PDF statistics:
  130 PDF objects out of 1000 (max. 8388607)
  93 compressed objects within 1 object stream
