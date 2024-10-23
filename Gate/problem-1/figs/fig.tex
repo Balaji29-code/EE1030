@@ -1,0 +1,20 @@
+\begin{figure}[!h]
+\centering
+\resizebox{2cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\huge]
+
+\draw [->, >=Stealth, line width = 1pt] (0,-4) -- (0,4);
+\draw [->, >=Stealth, line width = 1pt] (-4,0) -- (4,0);
+\node [font=\Huge] at (.5,3.8) {V};
+\draw [dashed] (-3,-3) -- (3,-3);
+\node [font=\Huge] at (-3.5,-3) {E};
+\draw (-.7,-.62) to[short] (.7,-.62);
+\node[font = \Huge] at (4.5,0) {x};
+\draw[thick, black, samples=50, domain=0.7:3.8] 
+        plot (\x, {2*(\x - 2)^2 - 4});
+\draw[thick, black, samples=50, domain=-3.8:-0.7] 
+        plot (\x, {2*(\x + 2)^2 - 4});
+\end{circuitikz}
+}%
+\end{figure}
