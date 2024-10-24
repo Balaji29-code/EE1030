@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  24 OCT 2024 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  24 OCT 2024 19:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2007,7 +2007,9 @@ Overfull \hbox (173.19243pt too wide) in paragraph at lines 1--107
 (./tables/table1.tex) [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/upd
 map/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
-] (./figs/fig.tex)
+] (./figs/fig.tex
+LaTeX Font Info:    Calculating math sizes for size <24> on input line 19.
+)
 Underfull \vbox (badness 1014) has occurred while \output is active []
 
  [2]
@@ -2020,11 +2022,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 53644 strings out of 474116
- 1273267 string characters out of 5743683
+ 53691 strings out of 474116
+ 1274023 string characters out of 5743683
  1949187 words of memory out of 5000000
- 75090 multiletter control sequences out of 15000+600000
- 625975 words of font info for 173 fonts, out of 8000000 for 9000
+ 75135 multiletter control sequences out of 15000+600000
+ 639937 words of font info for 217 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,11n,109p,1194b,1047s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
@@ -2034,7 +2036,7 @@ e/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2024/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 55513 bytes).
+Output written on main.pdf (3 pages, 55390 bytes).
 PDF statistics:
  187 PDF objects out of 1000 (max. 8388607)
  150 compressed objects within 2 object streams
