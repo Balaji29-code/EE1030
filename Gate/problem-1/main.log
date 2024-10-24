@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  24 OCT 2024 03:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  24 OCT 2024 09:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2000,14 +2000,18 @@ Overfull \hbox (4.65456pt too wide) in paragraph at lines 5--5
  []
 
 )
-Overfull \hbox (173.19243pt too wide) in paragraph at lines 1--105
+Overfull \hbox (173.19243pt too wide) in paragraph at lines 1--107
  [][] 
  []
 
 (./tables/table1.tex) [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/upd
 map/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
-] (./figs/fig.tex) [2] [3] (./main.aux)
+] (./figs/fig.tex)
+Underfull \vbox (badness 1014) has occurred while \output is active []
+
+ [2]
+[3] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2016,13 +2020,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 53643 strings out of 474116
- 1273257 string characters out of 5743683
- 1951187 words of memory out of 5000000
- 75089 multiletter control sequences out of 15000+600000
+ 53644 strings out of 474116
+ 1273267 string characters out of 5743683
+ 1949187 words of memory out of 5000000
+ 75090 multiletter control sequences out of 15000+600000
  625975 words of font info for 173 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,11n,109p,1194b,1159s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,11n,109p,1194b,1047s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texliv
@@ -2030,7 +2034,7 @@ e/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2024/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 55412 bytes).
+Output written on main.pdf (3 pages, 55515 bytes).
 PDF statistics:
  187 PDF objects out of 1000 (max. 8388607)
  150 compressed objects within 2 object streams
