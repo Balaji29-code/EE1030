@@ -1,0 +1,306 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{2008-ME-69-85}
+\author{EE24BTECH11010 - BALAJI B}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}
+    \item The figure shows an incomplete schematic of a conventional lathe to be used for cutting threads with different pitches. The speed gear box $U_v$
+ is shown and the feed gear box $U_s$
+ is to be placed. $P, Q, R$
+ and $S$
+ denote locations and have no other significance. Changes in $U_v$
+ should \textbf{NOT}
+ affect the pitch of thread being cut and changes in $U_s$
+ should \textbf{NOT} affect the cutting speed. 
+ \input{figs/fig5}
+ The correct connections and the correct placement of $U_s$
+ are given by \hfill (2008-ME) 
+ \begin{enumerate}
+         \item $Q$ and $E$ are connected. $U_s$ is placed between $P$ and $Q$
+         \item $S$ and $E$ are connected. $U_S$ is placed between $R$ and $S$
+         \item $Q$ and $E$ are connected. $U_s$ is placed between $Q$ and $E$
+         \item $S$ and $E$ are connected. $U_s$ is placed between $S$ and $E$
+ \end{enumerate}
+ \item A displacement sensor (a dial indicator) measures the lateral displacement of a mandrel on the taper hole inside a drill spindle. The mandrel axis is an extension of the drill spindle taper hole axis and the protruding portion of the mandrel surface is perfectly cylindrical. Measurement are recorded as $R_x = $
+ maximum deflection minus minimum deflection, corresponding to sensor position at $X$
+, over one rotation.
+\input{figs/fig6}
+If $R_P = R_Q > 0$
+ which one of the following would be consistent with the observation? 
+
+		\hfill (2008-ME)
+ \begin{enumerate}
+     \item The drill spindle rotational axis is coincident with the drill spindle taper hole axis 
+     \item The drill spindle rotational axis intersects the drill spindle taper hole axis at the point $P$
+     \item The drill spindle rotational axis is parallel to the drill spindle taper hole axis 
+     \item The drill spindle rotational axis intersects the drill spindle taper hole axis at point $Q$
+ \end{enumerate}
+{\large \textbf{Common Data Questions}} \\ \\
+\textbf{Common Data for Questions 71, 72 and 73} \\ \\
+In the figure shown, the system is a pure substance kept in a piston- cylinder arrangement. The system is initially a two- phase mixture containing $1 kg$
+ of liquid and $0.03 kg$
+ of vapour at a pressure of $100kPa$.
+ Initially, the piston rests on a set of stops, as shown in the figure. A pressure of $200kPa$
+ is required to exactly balance the weight of the piston and the outside atmospheric pressure. Heat transfer takes place into the system until its volume increases by $50\%$
+. Heat transfer to the system occurs in such a manner that the piston, when allowed to move, does so in a very slow (quasi-static / quasi-equilibrium) process. The thermal reservoir from which heat is transferred to the system as a temperature of $400^\degree C$
+. Average temperature of the system boundary can be taken as $175^\degree C$
+ Heat transfer to the system is $1kJ$
+, during which its entropy increases by $10 J/K$ 
+\input{figs/fig4.tex}
+Specific volume of liquid $\brak{v_f}$
+ and vapour $\brak{v_g}$
+ phases, as well as values of saturation temperatures, are given in the table below.
+ \begin{table}[H]
+     \centering
+     \include{tables/table3.tex}
+ \end{table}
+ \item At the end of the process, which one of the following situations will be true? 
+
+	 \hfill (2008-ME)
+ \begin{enumerate}
+     \item superheated vapour will be left in the system 
+     \item no vapour will be left in the system 
+     \item a liquid $+$ vapour mixture will be left in the system 
+     \item the mixture will exist at dry saturated vapour state 
+ \end{enumerate}
+ \item The work done by the system during the process is \hfill (2008-ME)
+ \begin{enumerate}
+     \begin{multicols}{4}
+         \item $0.1kJ$
+         \item $0.2kJ$
+         \item $0.3kJ$
+         \item $0.4kJ$
+     \end{multicols}
+ \end{enumerate}
+\item The net entropy generation (considering the system and the thermal reservoir together) during the process is closest to \hfill (2008-ME)
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item $7.5J/K$
+        \item $7.7J/K$
+        \item $8.5J/K$
+        \item $10J/K$
+    \end{multicols}
+\end{enumerate}
+\textbf{Common Data for the Questions 74 and 75} \\ \\
+Consider the Linear Programme $(LP)$ \\ \\
+Max $4x+6y$ \\ subjects to \\ $3x+2y \leq 6$ \\ $2x+3y \leq 6$ \\
+$x,y \geq 0$ \\ 
+\item After introducing slack variables $s$
+ and $t$
+, the initial basic feasible solution is represented by the table below (basic variables are $s = 6$, $t = 6$
+ and the objective function value is $0$
+). \hfill (2008-ME)
+\begin{table}[H]
+    \centering
+\include{tables/table1.tex} 
+\end{table}
+After some simpex iterations, the following table is obtained  
+\begin{table}[H]
+    \centering
+\include{tables/table2.tex} 
+\end{table}
+From this, one can conclude that
+\begin{enumerate}
+    \item The $LP$ has a unique optimal solution 
+    \item The $LP$ has an optimal solution that is not unique 
+    \item The $LP$ is infeasible 
+    \item The $LP$ is unbounded
+\end{enumerate}
+\item The dual for the $LP$ in Q 74 is \hfill (2008-ME)
+\begin{enumerate}
+    \begin{multicols}{2}
+        \item Min $6u + 6v$ \\ subject to \\ $3u + 2v \geq 4$ \\ $2u + 3v \geq 6$ \\ $u,v \geq 0 $  
+         \item Max $6u + 6v$ \\ subject to \\ $3u + 2v \leq 4$ \\ $2u + 3v \leq 6$ \\ $u,v \geq 0 $
+        \item Max $4u + 6v$ \\ subject to \\ $3u + 2v \leq 4$ \\ $2u + 3v \leq 6$ \\ $u,v \geq 0 $
+         \item Min $4u + 6v$ \\ subject to \\ $3u + 2v \leq 6$ \\ $2u + 3v \leq 6$ \\ $u,v \geq 0 $
+    \end{multicols}
+\end{enumerate}
+{\large \textbf{Linked Answer Questions: Q.76 to Q.85 carry two marks each.}} \\ \\
+\textbf{Statement for Linked Answer Questions 76 and 77:} \\ A cylindrical container of radius $R = 1m$, wall thickness 
+$1 mm$ is filled with water upto a depth of 
+m and suspended along with its upper rim. The density of water is $1000kg/m^3$ and acceleration due to gravity is $10m/s^2$. The self weight of the cylinder is negligible. The formula for hoop stress in a thin walled cylinder can be used at all points along the height of the cylindrical container. \\
+ \input{figs/fig2.tex} \\
+ \item The axial and circumferential stress $\brak{\sigma_a, \sigma_c}$
+ experienced by the cylinder wall a mid-depth (
+ $1m$ as shown) are \hfill (2008-ME)
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item $\brak{10,10}MPa$ 
+        \item $\brak{5,10}MPa$
+        \item $\brak{10,5}MPa$
+        \item $\brak{5,5}MPa$
+    \end{multicols}
+    \end{enumerate}
+\item If the Young's modulus and Poisson's ratio of the container material are $100GPa$ and $0.3$, respectively. The axial strain in the cylinder wall at mid height is \hfill (2008-ME)
+\begin{enumerate}
+    \begin{multicols}{2}
+        \item $2 \times 10^{-5}$
+        \item $6\times 10^{-5}$
+        \item $7 \times 10^{-5}$
+        \item $1.2 \times 10^{-5}$
+    \end{multicols}
+\end{enumerate}
+\textbf{Statement for Linked Answer Questions 78 and 79:} \\
+A steel bar of $10mm \times 50mm$
+ is cantilevered with two $M12$
+ bolts ( $P$ and $Q$) to support a static load of 
+ as shown in figure aside.
+ \input{figs/fig3}
+ \item The primary and secondary shear loads on rivet $p$, 
+ respectively are \hfill (2008-ME)
+ \begin{enumerate}
+     \begin{multicols}{2}
+         \item 2 $kN$, $20kN$
+         \item $20kN$, $2kN$
+          \item $20kN$, $0kN$
+           \item $0kN$, $20kN$
+     \end{multicols}
+ \end{enumerate}
+ \item The resultant shear stress on rivet $P$
+ is closest to \hfill (2008-ME)
+ \begin{enumerate}
+     \begin{multicols}{4}
+         \item $132MPa$
+         \item $159MPa$
+         \item $178MPa$
+         \item $195MPa$
+     \end{multicols}
+ \end{enumerate}
+\textbf{Statement for Linked Answer Questions 80 and 81:} \\
+The gap between a moving circular plate and a stationary surface is being continuously reduced, as the circular plate comes down at a uniform speed $V$
+ towards the stationary bottom surface, as shown in the figure. In the process, the fluid contained between the two plates flows out radially. The fluid is assumed to be incompressible and inviscid. 
+ \input{figs/fig1.tex}
+ \item The radial component of the fluid acceleration at $r = R$
+ is \hfill (2008-ME)
+ \begin{enumerate}
+     \begin{multicols}{4}
+         \item $\frac{3V^2R}{4h^2}$
+         \item $\frac{V^2R}{4h^2}$
+         \item $\frac{V^2R}{2h^2}$
+         \item $\frac{V^2h}{4R^2}$
+     \end{multicols}
+ \end{enumerate}
+\item The radial velocity $V_r$
+ at any radius $r$
+, when the gap width is $h$
+ is \hfill (2008-ME)
+ \begin{enumerate}
+ \begin{multicols}{4}
+     \item $V_r = \frac{V r}{2h}$
+      \item $V_r = \frac{V r}{h}$
+       \item $V_r = \frac{2V h}{r}$
+        \item $V_r = \frac{V h}{r}$
+ \end{multicols}
+ \end{enumerate}
+ \textbf{Statement for Linked Answer Questions 82 and 83:} \\
+ Orthogonal turning is performed on a cylindrical work piece with shear strength of $250MPa.$
+ The following conditions are used: cutting velocity is $180m/min$
+ feed is $0.2mm/rev$
+ depth of cut is $3cm$
+ chip thickness ratio is $0.5$
+ The orthogonal rake angle is $7^\degree$.
+ Apply Merchants theory for analysis. \\
+ \item The shear plane angle (in degrees) and the shear force respectively are \hfill (2008-ME)
+ \begin{enumerate}
+     \begin{multicols}{2}
+         \item $22.65;150N$
+         \item $22.65;320N$
+         \item $28;400N$
+         \item $28;320N$
+     \end{multicols}
+ \end{enumerate}
+ \item The cutting and frictional forces respectively are \hfill (2008-ME)
+\begin{enumerate}
+    \begin{multicols}{2}
+        \item $568N;387N$
+        \item $565N;381N$
+        \item $202N;120N$
+        \item $202N;356N$
+    \end{multicols}
+\end{enumerate}
+\textbf{Statement for Linked Answer Questions 84 and 85} \\
+In the feed drive of a point to point open loop 
+ drive, a stepper motor rotating at 
+ drives a table through a gear box and lead screw-nut mechanism (pitch = $4mm$, number of starts 
+). The gear ratio $\brak{= \frac{\text{Output rotational speed}}{\text{Input rotational speed}}}$ is given by $U = \frac{1}{4}$.
+ The stepper motor (driven by voltage pulses from a pulse generator) executes 1
+ step / pulse from a pulse generator) executes 
+ step / pulse of the generator. The frequency of the pulse train from the pulse generator is $f = 10,000$ pulses per minute. \\
+ \input{figs/fig7.tex}
+ \item The basic length unit $\brak{BLU}$
+, i.e. the table movement corresponding to 1
+ pulse of the pulse generator \hfill (2008-ME)
+ \begin{enumerate}
+     \begin{multicols}{2}
+         \item 0.5 microns
+         \item 5 microns
+         \item 50 microns
+         \item 500 microns
+     \end{multicols}
+ \end{enumerate}
+ \item A customer insists on a modification to change the $BLU$
+ of the $CNC$
+ drive to 10 microns without changing the table speed. The modification can be accomplished by 
+
+ \hfill (2008-ME)
+ \begin{enumerate}
+     \item changing $U$ to $\frac{1}{2}$ and reducing $f$ to $\frac{f}{2}$
+     \item changing $U$ to $\frac{1}{8}$ and increasing $f$ to $2f$
+     \item changing $U$ to $\frac{1}{2}$ and keeping $f$ to $2f$
+     \item keeping  $U$ unchanged and increasing $f$ to $2f$
+ \end{enumerate}
+\end{enumerate}
+\end{document}

@@ -1,0 +1,38 @@
+\begin{figure}[H]
+\centering
+\resizebox{5cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\normalsize]
+\draw [short] (1,14.5) -- (7.25,14.5);
+\draw [short] (1,13.5) -- (7.25,13.5);
+\draw [short] (1,14.5) -- (1,13.5);
+\draw [short] (1,15.75) -- (1,12.5);
+\draw [short] (3.25,15.75) -- (3.25,12.5);
+\draw [short] (1,17) -- (1,12.5);
+\draw [short] (3.25,17) -- (3.25,12.5);
+\draw [short] (1.5,17) -- (1.5,14);
+\draw [short] (2.5,17) -- (2.5,14);
+\draw [dashed] (1,14) -- (8.25,14);
+\draw [->, >=Stealth] (0.5,16.5) -- (1,16.5);
+\draw [->, >=Stealth] (7.25,14) -- (7.25,12.5);
+\draw [<->, >=Stealth] (1.5,16.5) -- (2.5,16.5);
+\draw [<->, >=Stealth] (3.25,16.5) -- (7.25,16.5);
+\draw [short] (7.25,17) -- (7.25,14.25);
+\draw  (7.25,14) circle (0.1cm);
+\draw  (2.5,14) circle (0.1cm);
+\draw  (1.5,14) circle (0.1cm);
+\node [font=\normalsize] at (1.25,16.75) {$100$};
+\node [font=\normalsize] at (2.75,16.75) {$100$};
+\node [font=\normalsize] at (2,16.75) {$400$};
+\node [font=\normalsize] at (5,17) {$1.7m$};
+\node [font=\normalsize] at (7.25,12) {$4kN$};
+\node [font=\normalsize] at (1.5,13.5) {$P$};
+\node [font=\normalsize] at (2.5,13.5) {$Q$};
+\draw [short] (1,15.75) .. controls (2.25,15.25) and (2.25,16) .. (3.25,15.75);
+\draw [short] (1,12.5) .. controls (2.25,12) and (2.25,13) .. (3.25,12.5);
+\draw [short] (7.25,14.5) .. controls (8,14.25) and (8,13.75) .. (7.25,13.5);
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}
