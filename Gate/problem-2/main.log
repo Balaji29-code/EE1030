@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  26 OCT 2024 11:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  26 OCT 2024 11:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2016,17 +2016,7 @@ LaTeX Font Info:    Calculating math sizes for size <14> on input line 59.
 ) [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr
 /local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
-] (./figs/fig4.tex
-Underfull \hbox (badness 10000) in paragraph at lines 91--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--54
-
- []
-
-)
+] (./figs/fig4.tex)
 \openout2 = `tables/table3.aux'.
 
  (./tables/table3.tex)
@@ -2037,17 +2027,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 137--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--141
+Underfull \hbox (badness 10000) in paragraph at lines 136--139
 
  []
 
@@ -2064,26 +2044,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--141
 
 
 ] (./figs/fig2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 171--58
+Underfull \hbox (badness 10000) in paragraph at lines 169--58
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--58
-
- []
-
-)
-
-LaTeX Warning: Reference `79' on page 4 undefined on input line 195.
-
-(./figs/fig3.tex) [4] (./figs/fig1.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 247--255
+) (./figs/fig3.tex) [4] (./figs/fig1.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 245--252
 
  []
 
 [5] (./figs/fig7.tex
-Underfull \hbox (badness 10000) in paragraph at lines 273--68
+Underfull \hbox (badness 10000) in paragraph at lines 271--68
 
  []
 
@@ -2095,22 +2066,19 @@ L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 53637 strings out of 474116
- 1272366 string characters out of 5743683
+ 53635 strings out of 474116
+ 1272355 string characters out of 5743683
  1955187 words of memory out of 5000000
  75021 multiletter control sequences out of 15000+600000
- 652635 words of font info for 244 fonts, out of 8000000 for 9000
+ 651285 words of font info for 242 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,11n,109p,1194b,1201s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,11n,109p,1194b,1288s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texliv
@@ -2118,10 +2086,10 @@ e/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2024/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 81746 bytes).
+Output written on main.pdf (6 pages, 72062 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 189 compressed objects within 2 object streams
+ 212 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
  102 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
