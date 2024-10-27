@@ -1,0 +1,46 @@
+\begin{figure}[H]
+\centering
+\resizebox{7cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\normalsize]
+\draw (1.75,11.75) to (1.75,11) node[ground]{};
+\draw (1.75,13.5) to[american voltage source] (1.75,11.5);
+\draw (1.75,13.5) to[short] (3,13.5);
+\draw (3,13.5) to[R] (4.75,13.5);
+\draw (4.75,13.5) to[short] (6,13.5);
+\draw (5,13.5) to[short] (5,15.75);
+\draw (5,15.75) to[short] (8,15.75);
+\draw [short] (6,14) -- (6,12.25);
+\draw [short] (6,14) -- (7.5,13);
+\draw [short] (6,12.25) -- (7.5,13);
+\draw [short] (6,12.75) -- (5,12.75);
+\draw (5,12.75) to (5,12) node[ground]{};
+\draw (6.75,13.5) to[short, -o] (6.75,14.25) ;
+\draw (6.5,12.5) to[short, -o] (6.5,12) ;
+\draw (7.5,13) to[short] (9.25,13);
+\draw (9.25,13) to[short] (9.25,13.75);
+\draw (8,15.75) to[short] (9.25,15.75);
+\draw (9.25,15.75) to[short] (9.25,15);
+\draw [short] (9.25,15) -- (8.75,14.75);
+\draw [short] (8.75,15) -- (8.75,14.25);
+\draw [short] (8.75,14.5) -- (8.25,14.5);
+\draw [short] (8.75,14.25) -- (8.75,14);
+\draw [->, >=Stealth] (8.75,14.25) -- (9.25,13.75);
+\draw (8.25,14.5) to (8.25,14) node[ground]{};
+\node [font=\normalsize] at (1,12.5) {$5V$};
+\node [font=\normalsize] at (6.5,11.5) {$-15V$};
+\node [font=\normalsize] at (6.5,14.75) {$15V$};
+\node [font=\normalsize] at (9.25,14.5) {$Q$};
+\node [font=\normalsize] at (10.25,12.5) {$V_{out}$};
+\node [font=\normalsize] at (6,14.75) {$+$};
+\draw (9.25,13) to[short, -o] (10,13) ;
+\node [font=\normalsize] at (6.25,12.75) {$+$};
+\node [font=\normalsize] at (6.25,13.5) {$-$};
+\node [font=\normalsize] at (3.75,14) {$1k\ohm$};
+\node at (5,13.5) [circ] {};
+\node at (9.25,13) [circ] {};
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}

@@ -1,0 +1,51 @@
+\begin{figure}[H]
+\centering
+\resizebox{5cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw [short] (-0.5,17.5) -- (-0.5,15.25);
+\draw [short] (-0.5,17.5) -- (3.5,17.5);
+\draw [short] (3.5,17.5) -- (3.5,15.25);
+\draw [short] (3.5,15.25) -- (-0.5,15.25);
+\draw [short] (3.5,16.75) -- (4.75,16.75);
+\draw [short] (3.5,15.75) -- (4.75,15.75);
+\draw [short] (4.75,16.75) -- (4.75,13);
+\draw [short] (4.75,13) -- (3.5,13);
+\draw [short] (4.75,15.75) -- (5.5,15.75);
+\draw [short] (5.5,15.75) -- (5.5,12.25);
+\draw [short] (5.5,12.25) -- (3.5,12.25);
+\draw [short] (3.5,13.5) -- (3.5,11.75);
+\draw [short] (3.5,13.5) -- (-0.5,13.5);
+\draw [short] (-0.5,13.5) -- (-0.5,11.75);
+\draw [short] (-0.5,11.75) -- (3.5,11.75);
+\draw [short] (-0.5,15.75) -- (-1.25,15.75);
+\draw [short] (-1.25,15.75) -- (-1.25,13);
+\draw [short] (-0.5,13) -- (-1.25,13);
+\draw [short] (-0.5,16.75) -- (-0.5,17);
+\draw (-0.5,16.75) to[short, -o] (-3.25,16.75) ;
+\draw [short] (-0.5,12.25) -- (-2.25,12.25);
+\draw [short] (-2.25,12.25) -- (-2.25,15.75);
+\draw (-2.25,15.75) to[short, -o] (-3.25,15.75) ;
+\draw (4.75,16.75) to[short, -o] (6.75,16.75) ;
+\draw (5.5,15.75) to[short, -o] (6.75,15.75) ;
+\node at (4.75,16.75) [circ] {};
+\node at (5.5,15.75) [circ] {};
+\node [font=\large] at (4.25,16.5) {$+$};
+\node [font=\large] at (4.25,16) {$-$};
+\node [font=\large] at (6.5,16.25) {$V_{out}$};
+\node [font=\large] at (3.75,12.75) {$+$};
+\node [font=\Large] at (3.75,12.5) {$-$};
+\node [font=\Large] at (1.5,12.75) {$k$};
+\node [font=\Large] at (1.5,16.5) {$A_0$};
+\node [font=\Large] at (-1.25,16.25) {$v_1$};
+\node [font=\Large] at (-0.75,16.5) {$+$};
+\node [font=\Large] at (-0.75,16) {$-$};
+\node [font=\Large] at (-2.5,16.25) {$v_{in}$};
+\node [font=\Large] at (-3.5,16.5) {$+$};
+\node [font=\Large] at (-3.5,15.75) {$-$};
+\node [font=\normalsize] at (-1.5,12.75) {$v_f = kv_{out}$};
+\node [font=\large] at (-0.75,12.75) {$+$};
+\node [font=\large] at (-0.75,12.5) {$-$};
+\end{circuitikz}
+}%
+\end{figure}

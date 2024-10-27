@@ -1,0 +1,26 @@
+\begin{figure}[H]
+\centering
+\resizebox{6cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw (0.25,17.75) to[short, -o] (-1,17.75) ;
+\draw (-0.25,17.75) to[curved capacitor] (1.5,17.75);
+\draw (1.5,17.75) to[short, -o] (4.75,17.75) ;
+\draw (3.25,17.75) to[R] (3.25,15.5);
+\draw (3.25,15.5) to[curved capacitor] (3.25,13.75);
+\draw (3.25,13.75) to[short, -o] (4.5,13.75) ;
+\draw (3.25,13.75) to[short, -o] (-1.25,13.75) ;
+\node [font=\large] at (-1.25,15.75) {$V_1(s)$};
+\node [font=\large] at (4,16.75) {$10k\ohm$};
+\node [font=\large] at (4.5,14.75) {$100\mu F$};
+\node [font=\large] at (0.5,18.5) {$100\mu F$};
+\node [font=\large] at (-1,18) {$+$};
+\node [font=\large] at (4.75,18.25) {$+$};
+\node [font=\large] at (4.5,14) {$-$};
+\node [font=\large] at (-1.25,14.25) {$-$};
+\node [font=\large] at (5,15.75) {$V_2(s)$};
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}

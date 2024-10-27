@@ -1,0 +1,175 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{2013-EE-1-13}
+\author{EE24BTECH11010 - BALAJI B}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}
+    \item In the circuit shown below what is the output voltage $\brak{V_{\text{out}}}$ in Volts if a silicon transistor $Q$ and an ideal op-amp are used? \hfill(2013-EE)
+    \input{figs/fig1.tex}
+    \begin{enumerate}
+        \begin{multicols}{2}
+            \item $-15$
+            \item $-0.7$
+            \item $+0.7$
+            \item $+15$
+        \end{multicols}
+    \end{enumerate}
+    \item The transfer function $\frac{V_2\brak{s}}{V_1\brak{s}}$ of the circuit shown below is \hfill(2013-EE) 
+    \input{figs/fig2.tex}
+    \begin{enumerate}
+        \begin{multicols}{2}
+            \item $\frac{0.5s+1}{s+1}$
+            \item $\frac{3s+6}{s+2}$
+            \item $\frac{s+2}{s+1}$
+            \item $\frac{s+1}{s+2}$
+        \end{multicols}
+    \end{enumerate}
+    \item Assuming zero initial condition, the response $y(t)$ of the system given below to a unit step input $u(t)$ is 
+    \input{figs/fig3.tex}
+    \begin{enumerate}
+        \begin{multicols}{2}
+            \item $u(t)$
+            \item $t u(t)$
+            \item $\frac{t^2}{2} u(t)$ 
+            \item $e^{-t}u(t)$
+        \end{multicols}
+    \end{enumerate}
+    \item The impulse response of the system is $h(t) = t u(t)$. For an input $u(t-1)$, the output is \hfill(2013-EE)
+    \begin{enumerate}
+        \begin{multicols}{4}
+            \item $\frac{t^2}{2}u(t)$
+            \item $\frac{t(t-1)}{2}u(t-1)$
+             \item $\frac{(t-1)^2}{2}u(t-1)$
+              \item $\frac{t^2-1}{2}u(t-1)$
+        \end{multicols}
+    \end{enumerate}
+    \item Which one of the following statements is \textbf{NOT TRUE} for a continuous time casual and stable LTI system? \hfill(2013-EE)
+    \begin{enumerate}
+        \item All the poles of the system must lie on the left side of the $j\omega$ axis
+        \item Zeros of the system can lie anywhere in the $s-$ plane.
+        \item All the poles must lie within $\abs{s} = 1$
+        \item All the roots of the characteristic equation must be located on the left side of the $j\omega$ axis.
+    \end{enumerate}
+    \item Two systems with impulse response $h_1(t)$ and $h_2(t)$ are connected is cascade. Then the overall impulse response of the cascaded system is given by \hfill(2013-EE)
+    \begin{enumerate}
+        \item A product of $h_1(t)$ and $h_2(t)$
+        \item Sum of $h_1(t)$ and $h_{2}(t)$
+        \item Convolution of $h_1(t)$ and $h_2(t)$
+        \item substraction of $h_2(t)$ from $h_1(t)$
+    \end{enumerate}
+    \item A source $v_s(t) = V\cos{100\pi t}$ has an internal impedance of $\brak{4 + j3} \ohm$. If a purely resistive load connected to this source has to extract the maximum power out of the source, its value in $\ohm$ should be \hfill(2013-EE)
+    \begin{enumerate}
+        \begin{multicols}{4}
+            \item 3
+            \item 4
+            \item 5
+            \item 7
+        \end{multicols}
+    \end{enumerate}
+    \item A single-phase load is supplied by a single-phase voltage source. If the current flowing from the load to the source is $10 \angle{-150^\degree}$ $A$ and if the voltage at the load terminals is $100 \angle 60^\degree$, then the \hfill(2013-EE)
+    \begin{enumerate}
+        \item load absorbs real power real power and delivers reactive power
+        \item load absorbs real power real power and absorbs reactive power
+        \item load delivers real power real power and delivers reactive power
+        \item load delivers real power real power and absorbs reactive power
+    \end{enumerate}
+    \item A single-phase transformer has no-load loss of $64W$, as obtained from an open-circuit test. When a short-circuit test is performed on it with $90\%$ of the rated currents flowing in its both $LV$ and $HV$ windings, the measured load is $81W$. The transformer has maximum efficiency when operated at \hfill(2013-EE)
+    \begin{enumerate}
+        \begin{multicols}{2}
+            \item $50.0\%$ of the rated current.
+            \item $64.0\%$ of the rated current.
+            \item $80.0\%$ of the rated current.
+            \item $88.8\%$ of the rated current.
+        \end{multicols}
+    \end{enumerate}
+    \item The flux density at a point in space is given by $\textbf{B} = 4x \textbf{a}_\textbf{x} + 2ky\textbf{a}_\textbf{y} + 8\textbf{a}_\textbf{z} Wb/m^2$. The value of constant $k$ must be equal to \hfill(2013-EE) 
+    \begin{enumerate}
+        \begin{multicols}{4}
+            \item $-2$
+            \item $-0.5$
+            \item $+0.5$
+            \item $+2$
+        \end{multicols}
+    \end{enumerate}
+    \item A continuous random variable $X$ has a probability density function $f(x) = e^{-x}, 0 < x < \infty$. Then $P\cbrak{X > 1}$ \hfill(2013-EE)
+    \begin{enumerate}
+        \begin{multicols}{4}
+            \item 0.368
+            \item 0.5
+            \item 0.632
+            \item 1.0
+        \end{multicols}
+    \end{enumerate}
+    \item The curl of the gradient of the scalar field defined by $V = 2x^2y + 3y^2z 
+ 4z^2x$ is \hfill(2013-EE)
+ \begin{enumerate}
+     \item $4xy\textbf{a}_\textbf{x} + 6yz\textbf{a}_\textbf{y} + 8zx \textbf{a}_ \textbf{z}$
+     \item $4\textbf{a}_\textbf{x}+ 6\textbf{a}_\textbf{z}+ 8\textbf{a}_\textbf{z}$
+     \item $\brak{4xy + 4z^2}\textbf{a}_\textbf{x} + \brak{2x^2 + 6yz}\textbf{a}_\textbf{y} + \brak{3y^2 + 8zx}\textbf{a}_\textbf{z}$
+     \item 0
+ \end{enumerate}
+ \item In the feedback network shown below, if the feedback factor $k$ is increased, then the 
+
+ \hfill(2013-EE)
+ \input{figs/fig4.tex}
+ \begin{enumerate}
+     \item input impedance increases and output impedance decrease  
+     \item input impedance increases and output impedance also increase 
+     \item input impedance decrease  and output impedance also decrease  
+     \item input impedance decreases and output impedance increases
+ \end{enumerate}
+\end{enumerate}
+\end{document}
