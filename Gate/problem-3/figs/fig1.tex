@@ -1,0 +1,38 @@
+\begin{figure}[H]
+\centering
+\resizebox{10cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\normalsize]
+\draw (6,14) to[R] (8,14);
+\draw (4.5,14) to[L ] (6.5,14);
+\draw (8,14) to[short] (9,14);
+\draw (9,14) to[short] (9,13.5);
+\draw (9,13.5) to[european resistor] (9,12);
+\draw (9,12) to[short] (4.5,12);
+\draw (4.5,14.5) to[short] (4.5,11.75);
+\draw (4.5,14.5) to[short] (1.75,14.5);
+\draw (1.75,14.5) to[short] (1.75,11.75);
+\draw (1.75,11.75) to[short] (4.5,11.75);
+\draw [short] (3,14) -- (3,13.5);
+\draw [short] (2.5,13.5) -- (3.5,13.5);
+\draw [short] (3,13.5) -- (2.5,13);
+\draw [short] (3,13.5) -- (3.5,13);
+\draw [short] (2.5,13) -- (3.5,13);
+\draw [short] (3,13) -- (3,12.5);
+\draw [short] (3.25,13.5) -- (3.5,13.75);
+\node [font=\normalsize] at (5.5,14.75) {Filter};
+\node [font=\normalsize] at (7,14.75) {Choke};
+\node [font=\normalsize] at (10,12.75) {Battery};
+\draw [short] (-2,14.75) -- (-2,11.75);
+\draw [short] (-2.5,14.75) -- (-2.5,11.75);
+\draw (-3.25,13.25) to[tmultiwire] (-6.75,13.25);
+\draw (1.75,13.25) to[tmultiwire] (-1.25,13.25);
+\draw  (-7.5,13.25) circle (0.75cm);
+\draw [short] (-8,13.25) .. controls (-7.5,13.75) and (-7.5,12.5) .. (-7,13.25);
+\draw [decorate, decoration={coil, aspect=0.4, segment length=6pt, amplitude=10pt}] (-1.5,12) -- (-1.5,14.5);
+\draw [decorate, decoration={coil, aspect=0.4, segment length=6pt, amplitude=10pt}] (-3,12) -- (-3,14.5);
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}

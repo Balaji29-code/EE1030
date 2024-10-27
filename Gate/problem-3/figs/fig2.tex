@@ -1,0 +1,47 @@
+\begin{figure}[H]
+\centering
+\resizebox{10cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\footnotesize]
+\draw [short] (3.25,17.75) -- (3.25,13.25);
+\draw [short] (3.25,17.75) -- (9.75,17.75);
+\draw [short] (9.75,17.75) -- (9.75,13.25);
+\draw [short] (3.25,13.25) -- (9.75,13.25);
+\draw [short] (3.25,13.25) -- (5.25,13.25);
+\draw [short] (3.25,13.25) -- (3.25,13);
+\draw [short] (4.5,13.25) -- (4.5,13);
+\draw [short] (5.75,13.25) -- (5.75,13);
+\draw [short] (7,13.25) -- (7,13);
+\draw [short] (8,13.25) -- (8,13);
+\draw [short] (9,13.25) -- (9,13);
+\draw [short] (3,17.75) -- (3.25,17.75);
+\draw [short] (3.25,13.25) -- (3,13.25);
+\draw [short] (3.25,14) -- (3,14);
+\draw [short] (3.25,15.25) -- (3,15.25);
+\draw [short] (3.25,16.5) -- (3,16.5);
+\node at (4.25,14) [circ] {};
+\node at (4.5,15.25) [circ] {};
+\node at (6.75,16.5) [circ] {};
+\node at (9,16) [circ] {};
+\draw [short] (4.5,15.25) -- (4.25,14);
+\draw [short] (4.5,15.25) -- (6.75,16.5);
+\draw [short] (6.75,16.5) -- (9,16);
+\node [font=\footnotesize] at (3.25,12.75) {0};
+\node [font=\footnotesize] at (4.5,12.75) {15};
+\node [font=\footnotesize] at (5.75,12.75) {30};
+\node [font=\footnotesize] at (7,12.75) {45};
+\node [font=\footnotesize] at (8,12.75) {60};
+\node [font=\footnotesize] at (9,12.75) {75};
+\node [font=\footnotesize] at (2.75,13.25) {0};
+\node [font=\footnotesize] at (2.75,14) {30};
+\node [font=\footnotesize] at (2.75,15.25) {60};
+\node [font=\footnotesize] at (2.75,16.5) {90};
+\node [font=\footnotesize] at (2.75,17.75) {120};
+\node [font=\footnotesize, rotate around={90:(0,0)}] at (2,15.5) {Fuel consumption};
+\node [font=\footnotesize, rotate around={90:(0,0)}] at (2.25,15.5) {(Kilometers per litre)};
+\node [font=\footnotesize] at (6,12.25) {(kilometers per hour)};
+\node [font=\footnotesize] at (6,12.5) {Speed};
+\end{circuitikz}
+}%
+\label{fig:my_label}
+\end{figure}

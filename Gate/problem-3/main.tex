@@ -1,0 +1,207 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{2011-EE-53-65}
+\author{EE24BTECH11010 - BALAJI B}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}
+    \item In the above system the three-phase fault $MVA$
+ at the bus $3$
+ is \hfill(2011-EE)
+ \begin{enumerate}
+ \begin{multicols}{2}  
+     \item $82.55MVA$
+     \item $85.11MVA$
+     \item $170.91MVA$
+     \item $181.82MVA$
+ \end{multicols}
+ \end{enumerate}
+ \textbf{Statement for Linked Answer Questions \ref{54} and \ref{55}} \\
+ A solar energy installation utilize a three-phase bridge converter to feed energy into power system through a transformer of $400V/400V$
+ as shown below. The energy is collected in a bank of 
+ $400V$
+ battery and is connected to converter through a large filter choke of resistance $10 \ohm$ 
+ \input{figs/fig1} 
+ \item The maximum current through the battery will be \label{54} \hfill(2011-EE)
+ \begin{enumerate}
+     \begin{multicols}{2}
+         \item $14A$
+         \item $40A$
+         \item $80A$
+         \item $94A$
+     \end{multicols}
+ \end{enumerate}
+ \item The $kVA$
+ rating of the input transformer is \label{55} \hfill (2011-EE)
+ \begin{enumerate}
+     \begin{multicols}{2}
+         \item $53.2kVA$
+         \item $46.0kVA$
+         \item $22.6kVA$
+         \item None
+     \end{multicols}
+ \end{enumerate}
+ \textbf{General Aptitude (GA) Questions}\\
+ \item Choose the most appropriate word from the options given below to complete the following sentence: \\
+ \textbf{Under ethical guidelines recently adopted by the Indian Medical Association, human genes are to be manipulated only to correct diseases for which \rule{1.6cm}{0.5pt}
+treatments are unsatisfactory.} \hfill(2011-EE)
+\begin{enumerate}
+    \begin{multicols}{2}
+    \item similar
+    \item most
+    \item uncommon
+    \item available        
+    \end{multicols}
+\end{enumerate}
+\item The question below consists of a pair of related words followed by four pairs of words. Select the pair that best expresses the relation in the original pair: \\
+\textbf{Gladiator : Arena} \hfill (2011-EE)
+\begin{enumerate}
+    \begin{multicols}{2}
+    \item dancer : stage
+    \item commuter : train
+    \item  teacher : classroom
+    \item lawyer : courtroom
+    \end{multicols}
+\end{enumerate}
+\item There are two candidates $P$ and $Q$ in an election. During the campaign, $40\%$ of the voters promised to vote for $P$, and rest for $Q$. However, on the day of election $15\%$ of the voters went back on their promise to vote for $P$ and instead voted for $Q$. $25\%$ of the voters went back on their promise to vote for $Q$ and instead voted for $P$. Suppose, $P$ lost by 2 votes, then what was the total number of voters? \hfill(2011-EE)
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item 100
+        \item 110 
+        \item 90 
+        \item 95
+    \end{multicols}
+\end{enumerate}
+\item \textbf{Choose the most appropriate word from the options given below to complete the following sentence:} \\
+It was her view that the country's problems had been \rule{1.6cm}{0.5pt} by foreign technocrats, so that to invite them to come back would be counter-productive.
+
+\hfill(2011-EE)
+\begin{enumerate}
+    \begin{multicols}{2}
+    \item identified
+    \item ascertained
+    \item exacerbated
+    \item analysed
+    \end{multicols}
+\end{enumerate}
+\item Choose the word from the options given below that is most nearly opposite in meaning to the given word: \\
+\textbf{Frequency} \hfill(2011-EE)
+\begin{enumerate}
+    \begin{multicols}{2}
+        \item periodicity
+        \item rarity
+        \item gradualness
+        \item persistency
+    \end{multicols}
+\end{enumerate}
+\item Three friends R, S and T shared from a bowl took $\frac{1}{3}^{rd}$ of the toffees, but returned four to the bowl. S took $\frac{1}{4}^{th}$ of what was left but returned three toffees to the bowl. T took half of the remainder but returned 2 back. If the had 17 toffees left, how many toffees were originally there in the bowl ? \hfill(2011-EE)
+	\begin{enumerate}
+			\begin{multicols}{4}
+			\item 38
+			\item 31
+			\item 48
+			\item 41
+			\end{multicols}
+	\end{enumerate}
+\item The fuel consumed by a motorcycle during a journey while travelling at various speeds is indicated in the graph below.
+	\begin{figure}[H]
+		\centering
+		\input{figs/fig2.tex}
+		\caption{}
+		\label{25}
+	\end{figure}
+	The distances covered during four laps of the journey are listed in the table below.
+	\input{tables/table1.tex}	
+	From the given data, we can conclude that the fuel consumed per kilometre was least during the lap \hfill(2011-EE)
+	\begin{enumerate}
+			\begin{multicols}{4}
+			\item P
+			\item Q
+			\item R
+			\item S
+			\end{multicols}
+	\end{enumerate}
+\item The horse has played a little known but very important role in the field of medicine. Horses were injected with toxins of diseases until their blood built p immunities. Then a serum was made from their blood. Serums to fight with diphtheria and tetanus were developed this way.
+	It can be inferred from the passage that horses were
+
+ \hfill(2011-EE)
+	\begin{enumerate}
+		\item given immunity to diseases
+		\item generally quite immune to diseases
+		\item given medicines to fight toxins
+		\item given diphtheria and tetanus serums
+	\end{enumerate}
+\item The sum of n terms of the series 4 + 44 + 444 + $\dots$ is \hfill(2011-EE)
+	\begin{enumerate}
+			\begin{multicols}{2}
+			\item $\frac{4}{81} \sbrak{10^{n+1} - 9n - 1}$
+			\item $\frac{4}{81} \sbrak{10^{n-1} - 9n - 1}$
+			\item $\frac{4}{81} \sbrak{10^{n+1} - 9n - 10}$
+			\item $\frac{4}{81} \sbrak{10^{n} - 9n - 10}$
+			\end{multicols}
+	\end{enumerate}
+\item Given that $f(y) = \frac{\abs{y}}{y}$ and q is any non-zero real number, the value of $\abs{f(q) - f(-q)}$ is \hfill(2011-EE)
+	\begin{enumerate}
+			\begin{multicols}{4}
+			\item 0
+			\item -1
+			\item 1
+			\item 2
+			\end{multicols}
+	\end{enumerate}
+
+\end{enumerate}
+
+\end{document}
