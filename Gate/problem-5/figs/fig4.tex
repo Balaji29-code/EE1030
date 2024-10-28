@@ -1,0 +1,35 @@
+\begin{figure}[!ht]
+\centering
+\resizebox{7cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw [ line width=0.7pt](-3,15.75) to[american voltage source] (-3,13);
+\draw [ line width=0.7pt](-3,15.75) to[short] (-1.5,15.75);
+\draw [ line width=0.7pt](-3,13) to[short] (-1.5,13);
+\draw [ line width=0.7pt](-1.5,16.5) to[short] (-1.5,12.25);
+\draw [ line width=0.7pt](-1.5,16.5) to[short] (2.25,16.5);
+\draw [ line width=0.7pt](2.25,16.5) to[short] (2.25,12.25);
+\draw [ line width=0.7pt](-1.5,12.25) to[short] (2.25,12.25);
+\draw [ line width=0.7pt](2.25,13.25) to[short] (5.25,13.25);
+\draw [line width=0.7pt](5.25,13.25) to[C] (5.25,15.75);
+\draw [line width=0.7pt](2.25,15.75) to[L ] (5.25,15.75);
+\draw [ line width=0.7pt](5.25,15.75) to[short] (6.75,15.75);
+\draw [ line width=0.7pt](5.25,13.25) to[short] (6.75,13.25);
+\draw [ line width=0.7pt](6.75,15.75) to[R] (6.75,13.25);
+\node [font=\large] at (-3.75,14.25) {$V_{in}$};
+\node [font=\large] at (0.5,14.5) {Full-Bridge};
+\node [font=\large] at (0.25,13.75) {VSI};
+\node [font=\large] at (2.5,14.5) {$V_R$};
+\node [font=\large] at (2.5,16) {$+$};
+\node [font=\LARGE] at (2.5,13) {$-$};
+\node [font=\large] at (4.5,14.5) {$C$};
+\node [font=\large] at (6.25,14.5) {$R$};
+\node [font=\large] at (7.25,14.5) {$V_o$};
+\node [font=\large] at (7,15.5) {$+$};
+\node [font=\LARGE] at (7,13.25) {$-$};
+\node [font=\large] at (3.75,16.5) {$L$};
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}

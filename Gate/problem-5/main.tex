@@ -1,0 +1,174 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{2015-EE-40-52}
+\author{EE24BTECH11010 - BALAJI B}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}
+    \item An unbalanced $DC$
+ Wheatstone bridge is shown in the figure. At what value of $p$
+ will the magnitude of $V_0$
+ be maximum? \hfill(2015-EE)
+ \input{figs/fig1.tex}
+ \begin{enumerate}
+     \begin{multicols}{4}
+         \item $\sqrt{\brak{1+x}}$
+         \item $\brak{1+x}$
+         \item $\frac{1}{\sqrt{\brak{1+x}}}$
+         \item $\sqrt{\brak{1-x}}$
+     \end{multicols}
+ \end{enumerate}
+ \item The circuit shown is meant to supply a resistive load $R_L$
+ from two separate $DC$
+ voltage sources. The switches $S_1$
+ and $S_2$
+ are controlled so that only one of them is ON at any instant. $S_1$
+ is turned on for $0.2ms$
+ and $S_2$
+ is turned on for $0.3ms$
+ in a $0.5ms$
+ switching cycle time period. Assuming continuous conduction of the inductor current and negligible ripple on the capacitor voltage, the output voltage $V_o$
+ (in Volt) across $R_L$
+ is \rule{2cm}{0.4pt}. \hfill(2015-EE)
+ \input{figs/fig2.tex}
+ \item A self commutating switch $SW$ 
+ operated at duty cycle $\delta$
+ is used to control the load voltage as shown in the figure
+ \input{figs/fig3.tex}
+ Under steady state operating conditions, the average voltage across the indicator and the capacitor respectively, are \hfill(2015-EE)
+ \begin{enumerate}
+     \begin{multicols}{2}
+         \item $V_L = 0$ and $V_C = \frac{1}{1-\delta} V_{dc}$
+          \item $V_L = \frac{\delta}{2}V_{dc}$ and $V_C = \frac{1}{1-\delta} V_{dc}$
+           \item $V_L = 0$ and $V_C = \frac{\delta}{1-\delta} V_{dc}$
+            \item $V_L = \frac{\delta}{2} V_{dc}$ and $V_C = \frac{\delta}{1-\delta} V_{dc}$
+     \end{multicols}
+ \end{enumerate}
+ \item The single-phase full-bridge voltage source inverter $\brak{VSI}$
+ shown in figure, has an output frequency of $50Hz$
+. It uses unipolar pulse width modulation with switching frequency of $50kHz$
+ and modulation index of $0.7$
+ For $V_{in} = 100V$, $L = 9.55mH$, $C = 63.66\mu F$
+ and $R = 5 \ohm$
+ the amplitude of the fundamental component in the voltage $V_o$ (in Volt) under steady-state is \rule{2cm}{0.4pt} \hfill(2015-EE)
+ \input{figs/fig4.tex}
+ \item A 3-phase 50 Hz square wave (6-step) $VSI$ feeds a 3-phase, 4 pole induction motor. The $VSI$ line voltage has a dominant $5^{th}$ harmonic component. If the operating slip of the motor with respect to fundamental component voltage is 0.04, the slip of the motor with respect to $5^{th}$ harmonic component of voltage is \rule{1cm}{0.4pt} 
+ 
+ \hfill(2015-EE)
+ \item A parallel plate capacitor is partially filled with glass of dielectric constant 4.0 as shown below. The dielectric strengths of air and glass are $30 kV/cm$ and $300 kV/cm$, respectively. The maximum voltage (in kilovolts), which can be applied across the capacitor without any breakdown, is \rule{2cm}{0.4pt} \hfill(2015-EE)
+ \input{figs/fig5.tex}
+ \item The figure shows a digital circuit constructed using negative edge triggered $J - K$
+ flip flops. Assume a starting state of $Q_2Q_1Q_0 = 000$
+ This state $Q_2Q_1Q_0 = 000$
+ will repeat after \rule{1.5cm}{0.4pt} number of cycles of the clock $CLK$.
+ \hfill (2015-EE)
+ \input{figs/fig6.tex}
+ \item $f\brak{A,B,C,D} = \Pi M \brak{0,1,3,4,5,7,9,11,12,13,14,15}$ is a maxterm representation of the Boolean function $f\brak{A,B,C,D}$ where $A$ is the MSB and $D$ is the LSB. The equivalent minimized representation of this function is \hfill(2015-EE)
+ \begin{enumerate}
+     \item $\brak{A + \Bar{C} + D}\brak{\Bar{A} + B + D}$
+     \item $A\Bar{C}D + \Bar{A} + B + D$
+     \item $\Bar{A}CD + A \Bar{B}CD + A\Bar{B}\Bar{C}\Bar{D}$
+     \item $\brak{B + \Bar{C} + D}\brak{A + \Bar{B} + \Bar{C} + D} \brak{\Bar{A} + B + C + D}$
+ \end{enumerate}
+ \item Consider a discrete time signal given by 
+ \begin{center}
+     $x\sbrak{n} = \brak{-0.25}^n u\sbrak{n} + \brak{0.5}^n u \sbrak{-n-1}$
+ \end{center}
+ The region of convergence of its Z-transform would be \hfill (2015-EE)
+ \begin{enumerate}
+     \item the region inside the circle of radius 0.5 and centered at origin 
+     \item the region outside the circle of radius 0.25 and centered at origin 
+     \item the annular region between the two circles, both centered at origin and having radii 0.25 and 0.5
+     \item the entire Z plane
+ \end{enumerate}
+ \item The op-amp shown in the figure has a finite gain $A= 1000$
+ and an infinite input resistance. A step voltage $V_i = 1mV$
+ is applied at the input at time $t = 0$
+ as shown. Assuming that the operational amplifier is not saturated, the time constant (in millisecond) of the output voltage $V_o$
+ is \hfill(2015-EE)
+ \input{figs/fig7.tex}
+ \item An $8$-bit, unipolar Successive Approximation Register type $ADC$
+ is used to convert $3.5V$
+ to digital equivalent output. The reference voltage is $+5V$
+ The output of the $ADC$
+ at the end of $3^{rd}$ clock pulse after the start of conversion, is \hfill(2015-EE)
+ \begin{enumerate}
+     \begin{multicols}{2}
+         \item 1010 0000
+         \item 1000 0000
+         \item 0000 0001
+         \item 0000 0011
+     \end{multicols}
+ \end{enumerate}
+ \item Consider the economic dispatch problem for a power plant having two generating units. The fuel costs in $Rs/MWh$ along with the generating limits for the two units are given below: \\
+ \begin{center}
+     $C_1\brak{P_1} = 0.01P_1^2 + 30P_1 + 10$ ; $100MW \leq P_1 \leq 150MW$ \\
+     $C_2\brak{P_2} = 0.05P_2^2 + 10P_2 + 10$ ; $100MW \leq P_2 \leq 180MW$      
+ \end{center} 
+ 
+ The incremental costs (in $Rs/MWh$) of the power plant when it supplies $200MW$ is 
+
+ \hfill(2015-EE)
+ \item Determine the correctness or otherwise of the following Assertion $\sbrak{\text{a}}$ and the Reason $\sbrak{r}$ \\ \\
+ Assertion: Fast decoupled load flow method gives approximate load flow solution because it uses several assumptions. \\ \\
+ Reason: Accuracy depends on the power mismatch vector tolerance. \hfill(2015-EE)
+ \begin{enumerate}
+     \item Both $\sbrak{\text{a}}$ and $\sbrak{\text{r}}$ are true and $\sbrak{\text{r}}$ is the correct reason for $\sbrak{\text{a}}$.
+     \item Both $\sbrak{\text{a}}$ and $\sbrak{\text{r}}$ are true but $\sbrak{\text{r}}$ is not correct reason for $\sbrak{\text{a}}$.
+     \item Both $\sbrak{\text{a}}$ and $\sbrak{\text{r}}$ are false
+     \item $\sbrak{\text{a}}$ is false and $\sbrak{\text{r}}$ is true
+ \end{enumerate}
+\end{enumerate}
+\end{document}

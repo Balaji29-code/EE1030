@@ -1,0 +1,36 @@
+\begin{figure}[H]
+\centering
+\resizebox{8cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw [ line width=0.7pt](2,12.25) to[short] (2,11.5);
+\draw [ line width=0.7pt](1.75,12.25) to[short] (2.25,12.25);
+\draw [ line width=0.7pt](1.5,12.5) to[short] (2.5,12.5);
+\draw [ line width=0.7pt](2,12.5) to[short] (2,13.5);
+\draw [line width=0.7pt](2,13.5) to[L ] (5,13.5);
+\draw [ line width=0.7pt](5,13.5) to[D] (6.75,13.5);
+\draw [ line width=0.7pt](6.75,13.5) to[short] (8.25,13.5);
+\draw [ line width=0.7pt](8.25,13.5) to[R] (8.25,11.5);
+\draw [ line width=0.7pt](2,11.5) to[short] (8.25,11.5);
+\draw [line width=0.7pt](7,13.5) to[curved capacitor] (7,11.5);
+\draw [line width=0.7pt](4.75,13.5) to[closing switch] (4.75,11.5);
+\node [font=\large] at (1.25,12.25) {$V_{dc}$};
+\node [font=\large] at (3.5,13) {$L$};
+\node [font=\large] at (5.75,14) {$D$};
+\node [font=\large] at (6.3,12.5) {$C$};
+\node [font=\large] at (5.45,12.5) {$SW$};
+\node [font=\normalsize] at (4.5,12.5) {$\delta$};
+\draw [line width=0.7pt, ->, >=Stealth] (7.5,11.75) -- (7.5,13);
+\node [font=\normalsize] at (7.75,12.5) {$v_c$};
+\node [font=\normalsize] at (8.75,12.5) {$R_L$};
+\node at (4.75,13.5) [circ] {};
+\node at (7,13.5) [circ] {};
+\node at (4.75,11.5) [circ] {};
+\node at (7,11.5) [circ] {};
+\draw [line width=0.7pt, ->, >=Stealth] (4,14.25) -- (3,14.25);
+\node [font=\large] at (3.5,14.5) {$v_L$};
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}

@@ -1,0 +1,44 @@
+\begin{figure}[H]
+\centering
+\resizebox{7cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\normalsize]
+\draw [ line width=0.7pt](1,11.25) to[short, -o] (7,11.25) ;
+\draw [ line width=0.7pt](3,11.25) to[short] (3,12.75);
+\draw [ line width=0.7pt](3,12.75) to[short] (3.5,12.75);
+\draw [ line width=0.7pt](1,13.5) to[american voltage source] (1,11.25);
+\draw [ line width=0.7pt](1,13.5) to[R] (2.75,13.5);
+\draw [ line width=0.7pt](2.75,13.5) to[short] (3.5,13.5);
+\draw [ line width=0.7pt](3,13.5) to[short] (3,14.5);
+\draw [line width=0.7pt](3,14.5) to[C] (6,14.5);
+\draw [ line width=0.7pt](6,14.5) to[short] (6,13);
+\draw [ line width=0.7pt](5,13) to[short] (6.75,13);
+\draw [ line width=0.7pt](6.75,13) to[short, -o] (7,13) ;
+\draw [ line width=0.7pt](3.5,13.75) to[short] (3.5,12.25);
+\draw [line width=0.7pt, short] (3.5,12.25) -- (5,13);
+\draw [line width=0.7pt, short] (3.5,13.75) -- (5,13);
+\node at (6,13) [circ] {};
+\node at (3,13.5) [circ] {};
+\node at (3,11.25) [circ] {};
+\draw [line width=0.7pt](3,11.25) to (3,11) node[ground]{};
+\draw [line width=0.7pt, short] (0.25,12.5) -- (0,12.5);
+\draw [line width=0.7pt, short] (0,12.5) -- (0,11.75);
+\draw [line width=0.7pt, short] (0,11.75) -- (-0.25,11.75);
+\node [font=\normalsize] at (1.75,14) {$R$};
+\node [font=\normalsize] at (2,13) {$1k\ohm$};
+\node [font=\normalsize] at (0.5,12.75) {$V_i$};
+\node [font=\normalsize] at (4.5,15.25) {$C$};
+\node [font=\normalsize] at (7,12) {$v_o$};
+\node [font=\small] at (4.15,13) {A = 1000};
+\node [font=\large] at (7,12.75) {+};
+\node [font=\large] at (3.75,13.25) {+};
+\node [font=\small] at (-0.3,12.5) {$1mV$};
+\node [font=\small] at (0,11.5) {t = 0 s};
+\node [font=\Large] at (3.75,12.75) {-};
+\node [font=\Large] at (7,11.5) {-};
+\node [font=\normalsize] at (4.5,13.7) {$1\mu F$};
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}

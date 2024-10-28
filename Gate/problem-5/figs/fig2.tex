@@ -1,0 +1,44 @@
+\begin{figure}[H]
+\centering
+\resizebox{8cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw (-5.75,24.25) to[american voltage source] (-5.75,19.25);
+\draw (-3.75,22.25) to[american voltage source] (-3.75,19.25);
+\draw (-3.75,22.25) to[short] (-1.25,22.25);
+\draw (-5.75,19.25) to[short] (5,19.25);
+\draw (-5.75,24.25) to[short] (-3.25,24.25);
+\draw (-3.25,24.25) to[short] (-2.75,23.75);
+\draw (-3,23.75) to[short] (-2,23.75);
+\draw (-2.75,23.5) to[short] (-2.25,23.5);
+\draw (-2.5,23.5) to[short] (-2.5,23);
+\draw [->, >=Stealth] (-2.25,23.75) -- (-2,24.25);
+\draw (-2,24.25) to[D] (2,24.25);
+\draw (2,24.25) to[short] (2,22.25);
+\draw (-1.25,22.25) to[short] (-0.75,21.75);
+\draw (-1,21.75) to[short] (0,21.75);
+\draw (-0.75,21.5) to[short] (-0.25,21.5);
+\draw [->, >=Stealth] (-0.25,21.75) -- (0.25,22.25);
+\draw (0.25,22.25) to[D] (2,22.25);
+\draw (2,23.25) to[L,l={ \large L} ] (5,23.25);
+\draw (5,19.25) to[C,l={ \large C}] (5,23.25);
+\draw (5,23.25) to[short] (6.25,23.25);
+\draw (5,19.25) to[short] (6.25,19.25);
+\draw (6.25,23.25) to[R,l={ \large $R_L$}] (6.25,19.25);
+\node [font=\large] at (-2.5,24.25) {$S1$};
+\node [font=\large] at (-0.5,22.25) {$S2$};
+\node [font=\large] at (-3,20.75) {$5V$};
+\node [font=\large] at (-6.5,21.75) {$10V$};
+\node [font=\large] at (6,22) {$+$};
+\node [font=\LARGE] at (6,20.5) {$-$};
+\node [font=\large] at (5.75,21.25) {$V_o$};
+\draw (-0.5,21.5) to[short] (-0.5,21);
+\node at (2,23.25) [circ] {};
+\node at (5,23.25) [circ] {};
+\node at (5,19.25) [circ] {};
+\node at (-3.75,19.25) [circ] {};
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}
