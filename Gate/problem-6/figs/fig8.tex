@@ -1,0 +1,22 @@
+\begin{figure}[H]
+\centering
+\resizebox{6cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\normalsize]
+
+\draw [line width=0.5pt, short] (3.75,13.5) -- (3.75,11.25);
+\draw [line width=0.5pt, short] (3.75,13.5) -- (6.5,13.5);
+\draw [line width=0.5pt, short] (6.5,13.5) -- (6.5,11.25);
+\draw [line width=0.5pt, short] (3.75,11.25) -- (6.5,11.25);
+\draw [line width=0.5pt, ->, >=Stealth] (2.25,12.5) -- (3.75,12.5);
+\draw [line width=0.5pt, ->, >=Stealth] (8,12.5) -- (6.5,12.5);
+\draw [line width=0.5pt, ->, >=Stealth, dashed] (5,12.5) -- (5,13.25);
+\draw [line width=0.5pt, ->, >=Stealth, dashed] (5,12.5) -- (5.75,12.5);
+\node [font=\normalsize] at (7,12.75) {$\sigma$};
+\node [font=\normalsize] at (5.5,12.75) {$X$};
+\node [font=\normalsize] at (4.75,13) {$Y$};
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}

@@ -1,0 +1,34 @@
+\begin{figure}[H]
+\centering
+\resizebox{8cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw [line width=1pt, short] (2.75,13.25) -- (2.75,11.75);
+\draw [line width=1pt, short] (2.75,12.25) -- (10.25,12.25);
+\draw [line width=1pt, short] (2.75,12.5) -- (10.25,12.5);
+\draw [line width=1pt, short] (10.25,12.5) -- (10.25,12.25);
+\draw [line width=1pt, short] (2.75,13.25) -- (2.5,13);
+\draw [line width=1pt, short] (2.75,13) -- (2.5,12.75);
+\draw [line width=1pt, short] (2.75,12.75) -- (2.5,12.5);
+\draw [line width=1pt, short] (2.75,12.5) -- (2.5,12.25);
+\draw [line width=1pt, short] (2.75,12.25) -- (2.5,12);
+\draw [line width=1pt, short] (2.75,12) -- (2.5,11.75);
+\draw [line width=1pt, ->, >=Stealth] (6.75,11.75) .. controls (7,12.5) and (7,12.25) .. (6.75,13) ;
+\draw [line width=1pt, ->, >=Stealth] (10.25,13) .. controls (10.75,12.5) and (10.5,12.25) .. (10.25,11.75) ;
+\draw [line width=1pt, <->, >=Stealth] (2.75,11.25) -- (6.75,11.25);
+\draw [line width=1pt, <->, >=Stealth] (6.75,11.25) -- (10.25,11.25);
+\node [font=\large] at (7,13.5) {$2M$};
+\node [font=\large] at (10.25,13.25) {$M$};
+\node [font=\large] at (10,11.75) {$C$};
+\node [font=\large] at (8.5,11.5) {$L/2$};
+\node [font=\large] at (4.5,11.75) {$L/2$};
+\node [font=\large] at (3,11.5) {$A$};
+\draw [ line width=1pt](2.75,11.5) to[short] (2.75,11);
+\draw [ line width=1pt](6.75,11.5) to[short] (6.75,11);
+\draw [ line width=1pt](10.25,11.5) to[short] (10.25,11);
+\node [font=\large] at (6.5,11.75) {$B$};
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}

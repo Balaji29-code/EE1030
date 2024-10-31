@@ -1,0 +1,172 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{2015-EE-40-52}
+\author{EE24BTECH11010 - BALAJI B}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}
+    \item Copper is an $FCC$ metal with lattice parameter of 3.62 \AA . Hall effect measurement shows electron mobility to be $3.2 \times 10^{-3} \ \text{m}^2 \text{V}^{-1}\text{s}^{-1}$. Electrical resistivity of copper is $1.7 \times 10^{-8} \ \Omega \text{m}$. The average number of free electrons per atom in copper is \rule{2.5cm}{0.5pt}(Charge of an electron: $1.6 \times 10^{-19}$ C) \hfill(2017-XE)
+    \item In an ionic solid the cation and the anion have ionic radii as 0.8 \AA \ and 1.6 \AA \ respectively. The maximum coordination number of the cation in the structure will be \hfill(2017-XE)
+ \begin{enumerate}
+     \begin{multicols}{4}
+         \item 3
+         \item 4
+         \item 6
+         \item 8
+     \end{multicols}
+ \end{enumerate}
+\item Which of the following statement(s) is / are true regarding susceptibility of a material
+\begin{center}
+    (i) Magnetic susceptibility is positive for a diamagnetic material \\
+    (ii) Magnetic susceptibility is negative for a diamagnetic material \\
+    (iii) Magnetic susceptibility is negative for an ferromagnetic material \\
+    (iv) Magnetic susceptibility is positive for a paramagnetic material
+\end{center} 
+\hfill(2017-XE)
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item (ii) and (iv)\\
+        \item (i) and (iii)\\
+        \item (ii) and (iii)\\
+        \item (i) and (iv)
+    \end{multicols}
+\end{enumerate}
+\item In the truss shown, a mass \textbf{m = 10kg} is hung from the node \textbf{J}. The magnetic of net force(in \textbf{Newtons}) transferred by the truss \textbf{EFGHIJ} onto the truss \textbf{JKLMNO} at the node \textbf{J} is \rule{2.5cm}{0.6pt} \\\\ Assume acceleration due to gravity $\textbf{g = 10m/s}^\textbf{2}$\hfill(2017-XE)
+\input{figs/fig1}
+\item A ball moves along a plannar frictionless slot as shown. Which one of the paths shown closely matches the path by the ball after it exits the slot at \textbf{E} \hfill(2017-XE)
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item path $m$
+        \item path $n$
+        \item path $p$
+        \item path $q$
+    \end{multicols}
+\end{enumerate}
+\input{figs/fig2.tex}
+\item A rod \textbf{EF} moving in a plane has velocity $\textbf{V}_E$ at \textbf{E} and $\textbf{V}_\textbf{F}$ that are parallel to each other. Which of the following \textbf{CANNOT} be true? \hfill(2017-XE)
+\input{figs/fig3.tex}
+\begin{enumerate}
+    \item Both $V_E$ and $V_F$ are perpendicular to $EF$.
+    \item Magnitude of $V_E$ is equal to the magnitude of $V_F$ and the angular velocity of $EF$ is zero.
+    \item The velocity $V_E$ is not perpendicular to $EF$ and the angular velocity of $EF$ is nonzero.
+    \item Magnitude of $V_E$ is not equal to the magnitude of $V_F$ and the angular velocity of $EF$ is nonzero.
+\end{enumerate}
+\item The beam shown below carries two external moments. A counterclockwise moment of magnitude $2M$ acts at point $B$ and a clockwise moment of magnitude $M$ acts at the free end, $C$. The beam is fixed at $A$. The shear force at a section close to the fixed end is equal to \hfill(2017-XE)
+\input{figs/fig4.tex}
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item $\frac{2M}{L}$
+        \item $\frac{M}{L}$
+        \item 0
+        \item $-\frac{M}{L}$
+    \end{multicols}
+\end{enumerate}
+\item Two pendulums are shown below. \textbf{\textit{Pendulum-A}} carries a bob of mass m, hung using a hinged massless rigid rod of length $L$ whereas \textbf{\textit{Pendulum-B}} carries a bob of mass $4m$ and length $L/4$. The ratio of the natural frequencies of \textbf{\textit{Pendulum-A}} and \textbf{\textit{Pendulum-B}} is given by \hfill(2017-XE)
+\input{figs/fig5.tex}
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item 1 : 2
+        \item 1 : 1
+        \item $\sqrt{2}$ : 1
+        \item 2 : 1 
+    \end{multicols}
+\end{enumerate}
+\item A closed thin-walled cylindrical steel pressure vessel of wall thickness $t = 1 \ \text{mm}$ is subjected to internal pressure. The maximum value of pressure $p$ (in kPa) that the wall can withstand based on the maximum shear stress failure theory is given by (Yield strength of steel is $200 \ \text{MPa}$ and mean radius of the cylinder $r = 1 \ \text{m}$).
+
+\hfill(2017-XE)
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item 100
+        \item 200
+        \item 300
+        \item 400
+    \end{multicols}
+\end{enumerate}
+\item The state of stress at a point in a body is represented using components of stresses along $X$ and $Y$ directions as shown. Which one of the following represents the state of the stress along $X^\prime$ and $Y^\prime$ axes?($X^\prime$- axis at $45^\degree$ clockwise with respect to $X$- axis)
+
+\hfill(2017-XE)
+\input{figs/fig8.tex}
+\begin{enumerate}
+    \item \input{figs/fig9}
+    \item \input{figs/fig10}
+    \item \input{figs/fig11}
+    \item \input{figs/fig12}
+\end{enumerate}
+\item An aluminum specimen with an initial gauge diameter $d_0 = 10mm$ and a gauge length $l_0 = 10mm$ is subjected to tension test. A tensile force $P = 50kN$ is applied at the ends of the specimen as shown resulting in an elongation of $1mm$ in the gauge length. The Poisson's ratio ($\gamma$) of the specimen is \rule{2cm}{0.4pt}\\ \\
+Shear modulus of the material $G = 25GPa$. Consider engineering stress-strain conditions. \hfill(2017-XE)
+\input{figs/fig6}
+\item A rectangular sheet $ABCD$ of dimensions $a$ and $b$ along $X$ and $Y$ directions, respectively, is stretched to a rectangle $AB'C'D'$, as shown. The maximum principal strain ($\varepsilon_1$) and minimum principal strain ($\varepsilon_2$) due to the stretch are given by
+
+\hfill(2017-XE)
+\input{figs/fig7}
+\begin{enumerate}
+    \begin{multicols}{2}
+        \item $\varepsilon_1 = 0.001$ and $\varepsilon_2 = 0.001$
+        \item $\varepsilon_1 = -0.001$ and $\varepsilon_2 = 0.001$
+        \item $\varepsilon_1 = 0.001$ and $\varepsilon_2 = -0.001$
+        \item  $\varepsilon_1 = -0.001$ and $\varepsilon_2 = -0.001$
+    \end{multicols}
+\end{enumerate}
+\item A solid bar of uniform square cross-section of side $b$ and length $L$ is rigidly fixed to the supports at the two ends. When the temperature in the rod is increased uniformly by $T$, the bar undergoes elastic buckling. Assume Young's modulus $E$ and coefficient of thermal expansion $\alpha$ to be independent of temperature. The coefficient of thermal expansion $\alpha$ is given by \hfill(2017-XE)
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item $\frac{3\pi^2b^2}{T_cL^2}$
+         \item $\frac{\pi^2b^2}{T_cL^2}$
+          \item $\frac{\pi^2b^2}{2T_cL^2}$
+           \item $\frac{\pi^2b^2}{3T_cL^2}$
+    \end{multicols}
+\end{enumerate}
+\end{enumerate}
+\end{document}
