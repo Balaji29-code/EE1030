@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  1 NOV 2024 00:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.5)  1 NOV 2024 11:42
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -1770,14 +1771,47 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 3
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
+) (./main.aux
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
 )
-No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 39.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 39.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/omltxmi.fd
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 39.
@@ -1952,6 +1986,8 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 39.
+
+(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -2023,7 +2059,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [2]
 (./figs/fig5.tex) (./figs/fig8.tex) [3] (./figs/fig9.tex) (./figs/fig10.tex)
 (./figs/fig11.tex) (./figs/fig12.tex) (./figs/fig6.tex
-Underfull \hbox (badness 10000) in paragraph at lines 147--41
+Underfull \hbox (badness 10000) in paragraph at lines 148--41
 
  []
 
@@ -2038,37 +2074,30 @@ L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 53737 strings out of 474116
- 1275795 string characters out of 5743683
- 1955187 words of memory out of 5000000
- 75158 multiletter control sequences out of 15000+600000
- 658910 words of font info for 262 fonts, out of 8000000 for 9000
+ 53743 strings out of 474116
+ 1275865 string characters out of 5743683
+ 1956187 words of memory out of 5000000
+ 75159 multiletter control sequences out of 15000+600000
+ 655972 words of font info for 257 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,11n,109p,1194b,1176s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr
-/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local
-/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texliv
-e/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2024/
-texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist
-/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/ti
-mes/utmri8a.pfb>
-Output written on main.pdf (5 pages, 81106 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
+r/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
+/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texliv
+e/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/tex
+mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2024/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on main.pdf (5 pages, 73485 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
- 71 named destinations out of 1000 (max. 500000)
+ 178 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 75 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
