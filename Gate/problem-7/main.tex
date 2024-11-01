@@ -1,0 +1,217 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{2021-AE-1-13}
+\author{EE24BTECH11010 - BALAJI B}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}
+    \item (i) Arun and Aparna are here.\\
+    (ii) Arun and Aparna is here. \\
+    (iii) Arun's families is here. \\
+    (iv) Arun's family is here. \\
+    Which of the above sentences are grammatically \textbf{CORRECT}? \hfill[2021 AE]
+    \begin{enumerate}
+        \begin{multicols}{4}
+            \item (i) and (ii)
+            \item (i) and (iv)
+            \item (ii) and (iv)
+            \item (iii) and (iv)
+        \end{multicols}
+    \end{enumerate}
+    \item The mirror image of the below text about the $x$-axis is \hfill[2021 AE]
+     \input{figs/fig1} 
+    \begin{enumerate}
+        \item \input{figs/fig3}
+        \item \input{figs/fig4}
+        \item \input{figs/fig5}
+        \item \input{figs/fig6}
+    \end{enumerate}
+    
+    \item Two identical cube shaped dice each with faces numbered 1 to 6 are rolled
+simultaneously. The probability that an even number is rolled out on each
+dice is:
+
+\hfill [2021 AE]
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item $\frac{1}{36}$
+        \item $\frac{1}{12}$
+        \item $\frac{1}{8}$
+        \item $\frac{1}{4}$
+    \end{multicols}
+\end{enumerate}
+\item $\oplus$ and $\odot$ are two operators on numbers $p$ and $q$ such that $p \odot q = p - q$, and $p \oplus q = p \times q$. Then, $\brak{9 \odot \brak{6 \oplus 7}} \odot \brak{7 \oplus \brak{6 \odot 5}} = $ \hfill[2021 AE] 
+\begin{enumerate}
+    \begin{multicols}{2}
+        \item 40
+        \item $-26$
+        \item $-33$
+        \item $-40$
+    \end{multicols}
+\end{enumerate}
+\item Four persons $P, Q, R$ and $S$ are to be seated in a row. $R$ should not be seated
+at the second position from the left end of the row. The number of distinct
+seating arrangements possible is: \hfill [2021 AE]
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item 6
+        \item 9
+        \item 18
+        \item 24
+    \end{multicols}
+\end{enumerate}
+\item On a planar field, you travelled 3 units East from a point $O$. Next you
+travelled 4 units South to arrive at point $ P$. Then you travelled from $P$ in the
+North-East direction such that you arrive at a point that is 6 units East of
+point $O$. Next, you travelled in the North-West direction, so that you arrive
+at point $Q$ that is 8 units North of point $P$.
+The distance of point $ Q $ to point $ O$, in the same units, should be \rule{2cm}{0.4pt}
+
+\hfill [2021 AE]
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item 3
+        \item 4
+        \item 5
+        \item 6
+    \end{multicols}
+\end{enumerate}
+\item The author said, "Musicians rehearse before their concerts. Actors rehearse
+their roles before the opening of a new play. On the other hand, I find it
+strange that many public speakers think they can just walk on to the stage
+and start speaking. In my opinion, it is no less important for public speakers
+to rehearse their talks." \\ \\ Based on the above passage, which one of the following is \textbf{TRUE}? \hfill[2021 AE]
+\begin{enumerate}
+    \item The author is of the opinion that rehearsing is important for musicians, actors
+and public speakers.
+\item The author is of the opinion that rehearsing is less important for public speakers
+than for musicians and actors.
+\item The author is of the opinion that rehearsing is more important only for
+musicians than public speakers.
+\item The author is of the opinion that rehearsal is more important for actors than
+musicians.
+\end{enumerate}
+\item 1. Some football players play cricket.\\
+2. All cricket players play hockey. \\ 
+Among the options given below, the statement that logically follows from the two statements 1 and 2 above, is: \hfill [2021 AE]
+\begin{enumerate}
+    \item No football player plays hockey.
+    \item Some football players play hockey.
+    \item All football players play hockey.
+    \item All hockey players play football.
+\end{enumerate}
+\item 
+In the figure shown above, $PQRS$ is a square. The shaded portion is formed
+by the intersection of sectors of circles with radius equal to the side of the
+square and centers at $S $and $Q.$ \\
+The probability that any point picked randomly within the square falls in the
+shaded area is \rule{2cm}{0.4pt} \hfill [2021 AE]
+\input{figs/fig2}
+\begin{enumerate}
+    \begin{multicols}{2}
+        \item $4 - \frac{\pi}{2}$
+        \item $\frac{1}{2}$
+        \item $\frac{\pi}{2} - 1$
+        \item $\frac{\pi}{4}$
+    \end{multicols}
+\end{enumerate}
+\item In an equilateral triangle $PQR$, side $PQ$ is divided into four equal parts, side
+$QR$ is divided into six equal parts and side $PR$ is divided into eight equal parts.
+The length of each subdivided part in $cm$ is an integer. \\
+The minimum area of the triangle $PQR$ possible, in $cm^2$
+, is \hfill[2021 XE]
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item 18
+        \item 24
+        \item $48\sqrt{3}$
+        \item $144\sqrt{3}$
+    \end{multicols}
+\end{enumerate}
+\item Consider the differential equation $\frac{d^2y}{dx^2} + 8 \frac{dy}{dx} + 16y = 0$
+and the boundary
+conditions
+$y(0) = 1$
+and $\frac{dy}{dx}
+(0) = 0$ 
+. The solution to this equation is: \hfill [2021 AE]
+\begin{enumerate}
+\begin{multicols}{2}
+\item $y = \brak{1 + 2x}e^{-4x}$
+    \item $y = \brak{1 - 4x}e^{-4x}$
+   \item $y = \brak{1 + 8x}e^{-4x}$
+     \item $y = \brak{1 + 4x}e^{-4x}$
+\end{multicols}
+    \end{enumerate}
+    \item $u \brak{x,y}$ is governed by the following equation $\frac{\partial^2 u}{\partial x^2} -4 \frac{\partial^2 u}{\partial x \partial y} + 6 \frac{\partial^ u}{\partial y^2} = x + 2y
+$. The nature of this equation is: \hfill [2021 AE]
+\begin{enumerate}
+\begin{multicols}{2}
+    \item linear
+    \item elliptic
+    \item hyperbolic
+\item parabolic
+\end{multicols}
+\end{enumerate}
+\item Consider the velocity field $\vec{V} = \brak{2x + 3y}\hat{i} + \brak{3x + 2y} \hat{j}$. The field $\vec{V}$ is \hfill [2021 AE]
+\begin{enumerate}
+    \item divergence-free and curl-free
+    \item curl-free but not divergence-free
+    \item divergence-free but not curl-free
+    \item neither divergence-free nor curl-free
+\end{enumerate}
+\end{enumerate}
+
+\end{document}
