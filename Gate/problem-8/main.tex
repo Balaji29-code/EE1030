@@ -1,0 +1,213 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{2021-CE-1-13}
+\author{EE24BTECH11010 - BALAJI B}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}
+    \item Getting to the top is \rule{2cm}{0.4pt} than staying on the top \hfill [2021 CE]
+    \begin{enumerate}
+        \begin{multicols}{2}
+            \item more easy 
+            \item much easy
+            \item easiest
+            \item easier
+        \end{multicols}
+    \end{enumerate}
+    \item The mirror image of the below text above the $x-$ axis is \hfill [2021 CE]
+    \input{figs/fig1}
+    \begin{enumerate}
+        \item \input{figs/fig3}
+        \item \input{figs/fig4}
+        \item \input{figs/fig5}
+        \item \input{figs/fig6}
+    \end{enumerate}
+    \item In a company, $35\%$ of the employees drink coffee, $40\%$ of the employees
+drink tea and $10\%$ of the employees drink both tea and coffee. What $\%$ of
+employees drink neither tea nor coffee? \hfill [2021 CE]
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item 15
+        \item 25
+        \item 35
+        \item 40
+    \end{multicols}
+\end{enumerate}
+\item $\oplus $ and $\odot$ are two operators on numbers $p$ and $q$ that $p \oplus q = \frac{p^2 + q^2}{pq}$ and $p \odot q = \frac{p^2}{q}$;
+If $x \oplus y = 2$, then $x = $ \hfill [2021 CE]
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item $\frac{y}{2}$
+        \item $y$
+        \item $\frac{3y}{2}$
+        \item $2y$
+    \end{multicols}
+\end{enumerate}
+\item Four persons $P, Q, R$ and $S$ are to be seated in a row, all facing the same
+direction, but not necessarily in the same order. $P$ and $R$ cannot sit adjacent
+to each other. $S$ should be seated to the right of $Q$. The number of distinct
+seating arrangements possible is: \hfill [2021 CE]
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item 2
+        \item 4
+        \item 6
+        \item 8
+    \end{multicols}
+\end{enumerate}
+\item Statement: Either $P$ marries $Q$ or $X$ marries $Y$\\
+Among the options below, the logical \textbf{NEGATION} of the above statement is:
+
+\hfill [2021 CE]
+\begin{enumerate}
+    \item $P$ does not marry $Q$ and $X$ marries $Y$.
+    \item Neither $P$ marries $Q$ nor $X$ marries $Y$.
+    \item $X$ does not marry $Y$ and $P$ marries $Q$.
+    \item $P$ marries $Q$ and $X$ marries $Y$.
+\end{enumerate}
+\item Consider two rectangular sheets, Sheet $M$ and Sheet $N $ of dimensions
+$6 cm \times 4 cm $ each.\\
+Folding operation 1: The sheet is folded into half by joining the short edges of
+the current shape. \\
+Folding operation 2: The sheet is folded into half by joining the long edges of
+the current shape.\\
+Folding operation 1 is carried out on Sheet $M$ three times.\\
+Folding operation 2 is carried out on Sheet $N$ three times. \\
+The ratio of perimeters of the final folded shape of Sheet $N$ to the final folded
+shape of Sheet $M$ is \rule{2cm}{0.4pt} \hfill [2021 CE]
+\begin{enumerate}
+    \begin{multicols}{2}
+        \item $13 : 7$ \\
+        \item $3 :2$ \\
+        \item $7 : 5$ \\
+        \item $5 : 13$
+    \end{multicols}
+\end{enumerate}
+\item Five line segments of equal lengths, $PR, PS, QS, QT$ and $RT$ are used to
+form a star as shown in the figure below.
+The value of $\theta$, in degrees, is \rule{2cm}{0.4pt}
+
+\hfill [2021 CE]
+\input{figs/fig2}
+
+\hfill [2021 CE]
+\begin{enumerate}
+    \begin{multicols}{2}
+        \item 36
+        \item 45 
+        \item 72
+        \item 108
+    \end{multicols}
+\end{enumerate}
+\item A function, $\lambda$, is defined by
+\begin{center}
+    $\lambda\brak{p,q} =
+    \begin{cases}
+        \brak{p-q}^2 & \text{ if } p \geq q \\
+        p + q, & \text{ if } p < q
+    \end{cases}$
+\end{center}
+The value of the expression $\frac{\lambda\brak{-\brak{-3+2}, \brak{-2 + 3}}}{\brak{-\brak{-2 +1}}}$ is: \hfill [2021 CE]
+\begin{enumerate}
+    \begin{multicols}{2}
+    \item $-1$
+        \item 0
+        \item $\frac{16}{3}$
+        \item 16
+    \end{multicols}
+\end{enumerate}
+\item Humans have the ability to construct worlds entirely in their minds, which
+don't exist in the physical world. So far as we know, no other species
+possesses this ability. This skill is so important that we have different words
+to refer to its different flavors, such as imagination, invention and
+innovation.\\
+Based on the above passage, which one of the following is \textbf{TRUE}? \hfill [2021 CE]
+\begin{enumerate}
+    \item No species possess the ability to construct worlds in their minds.
+    \item The terms imagination, invention and innovation refer to unrelated skills.
+    \item We do not know of any species other than humans who possess the ability to
+construct mental worlds.
+\item Imagination, invention and innovation are unrelated to the ability to construct
+mental worlds.
+\end{enumerate}
+\item The rank of the matrix $\myvec{1 & 2 & 2 & 3 \\ 3 & 4 & 2 & 5 \\ 5 & 6 & 2 & 7 \\ 7 & 8 & 2 & 9}$ is \hfill [2021 CE]
+\begin{enumerate}
+    \begin{multicols}{4}
+        \item 1
+        \item 2
+        \item 3
+        \item 4
+    \end{multicols}
+\end{enumerate}
+\item If $p = \myvec{1 & 2 \\ 3 &4}$ and $Q = \myvec{0 & 1 \\ 1 & 0}$ then $Q^TP^T$ is \hfill [2021 CE]
+\begin{enumerate}
+\begin{multicols}{4}
+    \item $\myvec{1 & 2 \\ 3 & 4}$
+     \item $\myvec{1 & 3 \\ 2 & 4}$
+      \item $\myvec{2 & 1 \\ 4& 3}$
+       \item $\myvec{2 & 4 \\ 1 & 3}$
+\end{multicols}
+\end{enumerate}
+\item The shape of the cumulative distribution function of Gaussian distribution is 
+
+\hfill [ 2021 CE]
+\begin{enumerate}
+    \item Horizontal line
+    \item Straight line at 45 degree angle
+    \item Bell-shaped
+    \item S-shaped
+\end{enumerate}
+\end{enumerate}
+\end{document}
