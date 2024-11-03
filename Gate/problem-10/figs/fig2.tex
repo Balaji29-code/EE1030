@@ -1,0 +1,41 @@
+\begin{figure}[H]
+\centering
+\resizebox{5cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\normalsize]
+\draw [short] (3.5,14.5) -- (3.5,11.5);
+\draw [short] (3.5,14.5) -- (6.5,14.5);
+\draw [short] (6.5,14.5) -- (6.5,11.5);
+\draw [short] (3.5,11.5) -- (6.5,11.5);
+\draw [short] (3.5,13.25) -- (2.5,13.25);
+\draw [short] (3.5,12.75) -- (2.5,12.75);
+\draw [short] (2.5,14) -- (2.5,12);
+\draw [short] (2.5,12) -- (1.75,12);
+\draw [short] (1.75,12) -- (1.75,14);
+\draw [short] (1.75,14) -- (2.5,14);
+\draw [short] (1.75,13.75) -- (0.5,14.5);
+\draw [short] (0.5,14.5) -- (0.5,13.75);
+\draw [short] (0.5,13.75) -- (1.75,13);
+\draw [short] (1.75,13) -- (0.5,12);
+\draw [short] (1.75,12.25) -- (0.5,11.25);
+\draw [short] (0.5,11.25) -- (0.5,12);
+\draw [short] (6.5,13.25) -- (7,13.25);
+\draw [short] (7,13.25) -- (7,12.75);
+\draw [short] (6.5,12.75) -- (7,12.75);
+\node [font=\normalsize] at (0.75,14.75) {Cold Air};
+\node [font=\normalsize] at (0.75,10.75) {Fresh Air};
+\node [font=\normalsize] at (3,14) {Intake};
+\node [font=\normalsize] at (3,13.5) {Duct};
+\node [font=\normalsize] at (2,11.75) {Mixing };
+\node [font=\normalsize] at (2,11.5) {Chamber};
+\node [font=\normalsize] at (4.75,13) {Room};
+\node [font=\normalsize] at (7.25,12.5) {Exit Duct};
+\draw [->, >=Stealth] (0.25,14.25) -- (1,13.75);
+\draw [->, >=Stealth] (0,11.5) -- (1,12);
+\draw [->, >=Stealth] (3.25,13) -- (4,13);
+\draw [->, >=Stealth] (6.75,13) -- (7.75,13);
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}
