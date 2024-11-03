@@ -1,0 +1,21 @@
+\begin{figure}[H]
+\centering
+\resizebox{4cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw (1.75,15) node[ieeestd not port, anchor=in](port){} (port.out) to[short] (3.75,15);
+\draw (port.in) to[short] (1.25,15);
+\draw (1.75,13) node[ieeestd not port, anchor=in](port){} (port.out) to[short] (3.75,13);
+\draw (port.in) to[short] (1.25,13);
+\draw [line width=1.1pt, short] (3.75,15) -- (3.75,14.25);
+\draw [line width=1.1pt, short] (3.75,13) -- (3.75,13.75);
+\draw [line width=1.1pt, short] (3.75,13.75) -- (4.75,13.75);
+\draw [line width=1.1pt, short] (3.75,14.25) -- (4.75,14.25);
+\draw (4.75,14.25) to[short] (5,14.25);
+\draw (4.75,13.75) to[short] (5,13.75);
+\draw (5,14.25) node[ieeestd or port, anchor=in 1, scale=0.89](port){} (port.out) to[short] (7,14);
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}

@@ -1,0 +1,40 @@
+\begin{figure}[H]
+\centering
+\resizebox{4cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw [ line width=0.8pt ] (2.75,12.75) circle (1.5cm);
+\node [font=\LARGE] at (2,12.75) {$R$};
+\node [font=\LARGE] at (3.25,13.5) {$M$};
+\node at (2.75,12.75) [circ] {};
+\draw [line width=0.8pt, <->, >=Stealth] (2.75,12.75) -- (1.75,13.75);
+\draw [line width=0.8pt, <->, >=Stealth] (2.25,11.5) .. controls (2.75,11.25) and (2.75,11.25) .. (3.25,11.5);
+\node at (2.75,11.25) [circ] {};
+\node [font=\LARGE] at (2.75,11.75) {$m$};
+\draw [line width=0.8pt, ->, >=Stealth] (3.25,14.5) .. controls (4.25,14.25) and (4,14.25) .. (4.25,13.5) ;
+\draw [line width=0.8pt, short] (0.5,11.25) -- (5.5,11.25);
+\draw [line width=0.8pt, short] (0.75,11.25) -- (0.5,11);
+\draw [line width=0.8pt, short] (1,11.25) -- (0.75,11);
+\draw [line width=0.8pt, short] (1.25,11.25) -- (1,11);
+\draw [line width=0.8pt, short] (1.5,11.25) -- (1.25,11);
+\draw [line width=0.8pt, short] (1.75,11.25) -- (1.5,11);
+\draw [line width=0.8pt, short] (2,11.25) -- (1.75,11);
+\draw [line width=0.8pt, short] (2.25,11.25) -- (2,11);
+\draw [line width=0.8pt, short] (2.5,11.25) -- (2.25,11);
+\draw [line width=0.8pt, short] (2.75,11.25) -- (2.5,11);
+\draw [line width=0.8pt, short] (3,11.25) -- (2.75,11);
+\draw [line width=0.8pt, short] (3.25,11.25) -- (3,11);
+\draw [line width=0.8pt, short] (3.5,11.25) -- (3.25,11);
+\draw [line width=0.8pt, short] (3.75,11.25) -- (3.5,11);
+\draw [line width=0.8pt, short] (4,11.25) -- (3.75,11);
+\draw [line width=0.8pt, short] (4.25,11.25) -- (4,11);
+\draw [line width=0.8pt, short] (4.5,11.25) -- (4.25,11);
+\draw [line width=0.8pt, short] (4.75,11.25) -- (4.5,11);
+\draw [line width=0.8pt, short] (5,11.25) -- (4.75,11);
+\draw [line width=0.8pt, short] (5.25,11.25) -- (5,11);
+\draw [line width=0.8pt, short] (5.5,11.25) -- (5.25,11);
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}

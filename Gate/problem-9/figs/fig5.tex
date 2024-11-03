@@ -1,0 +1,35 @@
+\begin{figure}[H]
+\centering
+\resizebox{5cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw [line width=1.1pt, short] (1.5,14.5) -- (1.5,10.75);
+\draw [line width=1.1pt, short] (1.5,10.75) -- (5.75,10.75);
+\draw [line width=1.1pt, short] (5.75,10.75) -- (5.75,14.5);
+\draw [line width=1.1pt, short] (1.5,14.5) -- (5.75,14.5);
+\draw [line width=1.1pt, short] (5.75,14.5) -- (1.5,10.75);
+\draw [ line width=0.6pt ] (3.5,15.25) circle (0.25cm);
+\draw [ line width=0.6pt ] (0.75,13) circle (0.25cm);
+\draw [ line width=0.6pt ] (3.5,10.25) circle (0.25cm);
+\draw [ line width=0.6pt ] (6.25,12.75) circle (0.25cm);
+\draw [ line width=0.6pt ] (8,12.25) circle (0.25cm);
+\draw [line width=0.6pt, ->, >=Stealth] (2.5,10.75) -- (2,11.25);
+\node [font=\normalsize] at (3,11.25) {$45^{\degree}$};
+\node [font=\large] at (3.5,10.25) {$1$};
+\node [font=\Large] at (6.25,12.75) {$2$};
+\node [font=\Large] at (3.5,15.25) {$3$};
+\node [font=\Large] at (0.75,13) {$4$};
+\draw [line width=0.6pt, ->, >=Stealth] (8,12.25) -- (8,14.25);
+\draw [line width=0.6pt, ->, >=Stealth] (8,12.25) -- (9.75,12.25);
+\node [font=\large] at (7.5,12.25) {$x$};
+\node [font=\large] at (9.5,12) {$y$};
+\node [font=\large] at (7.5,14.25) {$z$};
+\node [font=\large] at (2.5,14) {$n_2 = 1.1$};
+\node [font=\large] at (4.75,11.25) {$n_1 = 2.2$};
+\draw [line width=0.6pt, ->, >=Stealth] (4,9.25) -- (4,10.75);
+\node [font=\large] at (6,9.75) {$n_0 = 1.0$};
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}
