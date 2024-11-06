@@ -1,0 +1,9 @@
+\beamer@sectionintoc {2}{Question}{3}{0}{1}
+\beamer@sectionintoc {3}{Solution}{4}{0}{2}
+\beamer@subsectionintoc {3}{1}{Parameters}{4}{0}{2}
+\beamer@subsectionintoc {3}{2}{Intersection Points}{5}{0}{2}
+\beamer@subsectionintoc {3}{3}{Area Calculation}{8}{0}{2}
+\beamer@subsectionintoc {3}{4}{Finding $a$}{9}{0}{2}
+\beamer@subsectionintoc {3}{5}{Graph}{10}{0}{2}
+\beamer@subsectionintoc {3}{6}{C Code}{11}{0}{2}
+\beamer@subsectionintoc {3}{7}{Python Code}{21}{0}{2}

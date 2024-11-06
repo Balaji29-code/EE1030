@@ -1,0 +1,15 @@
+\begin{lstlisting}[language = Python]
+# Fill the closed region between the parabola and the line x=11.3
+plt.fill_between(x, y, where=(x <= 11.3), color='blue', alpha=0.3, label='Shaded Region')
+
+# Label the axes and add a title
+plt.xlabel("x")
+plt.ylabel("y")
+plt.title("Parabola, Line, and Points $X_1$ & $X_2$")
+plt.grid(True)
+plt.legend(loc='upper left')
+plt.axis('equal')
+
+# Save the plot to a file
+plt.savefig('../figs/fig.png')
+plt.show()\end{lstlisting}
